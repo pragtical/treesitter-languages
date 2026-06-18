@@ -17,12 +17,30 @@
 #     whether the grammar needs to be generated
 # std: string = 'c11'
 #     C standard to use
+# source_path: string = ''
+#     subdirectory containing src/parser.c in the remote repository
 # files: [str]
 #     list of patterns of filenames to match to this languages
+
+[bash]
+remote = 'https://github.com/tree-sitter/tree-sitter-bash'
+files = [
+	'%.sh$',
+	'%.bash$',
+	'%.zsh$',
+	'%.profile$',
+	'%.bashrc$',
+	'%.zshrc$'
+]
 
 [c]
 remote = 'https://github.com/tree-sitter/tree-sitter-c'
 files = [ '%.c$' ]
+
+[c_sharp]
+remote = 'https://github.com/tree-sitter/tree-sitter-c-sharp'
+revision = '88366631d598ce6595ec655ce1591b315cffb14c'
+files = [ '%.cs$' ]
 
 [cpp]
 remote = 'https://github.com/tree-sitter/tree-sitter-cpp'
@@ -45,6 +63,10 @@ files = [ '%.css$' ]
 remote = 'https://github.com/gdamore/tree-sitter-d'
 files = [ '%.d$', '%.di$' ]
 
+[dockerfile]
+remote = 'https://github.com/camdencheek/tree-sitter-dockerfile'
+files = [ '[Dd]ockerfile$', '%.dockerfile$' ]
+
 [ecma]
 
 [go]
@@ -65,23 +87,88 @@ files = [ '%.html?$' ]
 
 [html_tags]
 
+[java]
+remote = 'https://github.com/tree-sitter/tree-sitter-java'
+files = [ '%.java$' ]
+
 [javascript]
 remote = 'https://github.com/tree-sitter/tree-sitter-javascript'
 files = [ '%.js$', '%.cjs$', '%.mjs$', '%.jsx$' ]
 
 [jsx]
 
+[json]
+remote = 'https://github.com/tree-sitter/tree-sitter-json'
+files = [ '%.json$' ]
+
 [julia]
 remote = 'https://github.com/tree-sitter/tree-sitter-julia'
 files = [ '%.jl$' ]
+
+[kotlin]
+remote = 'https://github.com/fwcd/tree-sitter-kotlin'
+revision = '93bfeee1555d2b1442d68c44b0afde2a3b069e46'
+files = [ '%.kt$', '%.kts$' ]
 
 [lua]
 remote = 'https://github.com/MunifTanjim/tree-sitter-lua'
 files = [ '%.lua$' ]
 
+[markdown]
+remote = 'https://github.com/tree-sitter-grammars/tree-sitter-markdown'
+source_path = 'tree-sitter-markdown'
+files = [ '%.md$', '%.markdown$' ]
+
+[markdown_inline]
+remote = 'https://github.com/tree-sitter-grammars/tree-sitter-markdown'
+source_path = 'tree-sitter-markdown-inline'
+
+[php]
+remote = 'https://github.com/tree-sitter/tree-sitter-php'
+source_path = 'php'
+files = [ '%.php$', '%.phtml$' ]
+
+[php_only]
+remote = 'https://github.com/tree-sitter/tree-sitter-php'
+source_path = 'php_only'
+
+[python]
+remote = 'https://github.com/tree-sitter/tree-sitter-python'
+files = [ '%.py$', '%.pyw$' ]
+
+[regex]
+remote = 'https://github.com/tree-sitter/tree-sitter-regex'
+
+[ruby]
+remote = 'https://github.com/tree-sitter/tree-sitter-ruby'
+files = [ '%.rb$', '%.rake$', 'Gemfile$', 'Rakefile$' ]
+
 [rust]
 remote = 'https://github.com/tree-sitter/tree-sitter-rust'
 files = [ '%.rs$' ]
+
+[toml]
+remote = 'https://github.com/tree-sitter-grammars/tree-sitter-toml'
+files = [ '%.toml$' ]
+
+[tsx]
+remote = 'https://github.com/tree-sitter/tree-sitter-typescript'
+source_path = 'tsx'
+files = [ '%.tsx$' ]
+
+[typescript]
+remote = 'https://github.com/tree-sitter/tree-sitter-typescript'
+source_path = 'typescript'
+files = [ '%.ts$', '%.mts$', '%.cts$' ]
+
+[xml]
+remote = 'https://github.com/tree-sitter-grammars/tree-sitter-xml'
+source_path = 'xml'
+files = [ '%.xml$', '%.xsd$', '%.svg$' ]
+
+[yaml]
+remote = 'https://github.com/tree-sitter-grammars/tree-sitter-yaml'
+files = [ '%.ya?ml$' ]
 
 [zig]
 remote = 'https://github.com/maxxnino/tree-sitter-zig'

@@ -1,8 +1,18 @@
 {
     "addons": [
         {
+            "id": "treesitter_bash",
+            "version": "1",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
             "id": "treesitter_c",
-            "version": "13",
+            "version": "15",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -37,8 +47,18 @@
             "mod-version": "3"
         },
         {
+            "id": "treesitter_c_sharp",
+            "version": "1",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
             "id": "treesitter_cpp",
-            "version": "15",
+            "version": "17",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {},
@@ -75,7 +95,7 @@
         },
         {
             "id": "treesitter_css",
-            "version": "8",
+            "version": "10",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -111,7 +131,7 @@
         },
         {
             "id": "treesitter_d",
-            "version": "9",
+            "version": "11",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -146,8 +166,18 @@
             "mod-version": "3"
         },
         {
+            "id": "treesitter_dockerfile",
+            "version": "1",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
             "id": "treesitter_ecma",
-            "version": "4",
+            "version": "6",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -183,7 +213,7 @@
         },
         {
             "id": "treesitter_go",
-            "version": "10",
+            "version": "12",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -219,7 +249,7 @@
         },
         {
             "id": "treesitter_gomod",
-            "version": "7",
+            "version": "9",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -255,7 +285,7 @@
         },
         {
             "id": "treesitter_gosum",
-            "version": "2",
+            "version": "4",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -291,7 +321,7 @@
         },
         {
             "id": "treesitter_html",
-            "version": "3",
+            "version": "5",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {},
@@ -328,7 +358,7 @@
         },
         {
             "id": "treesitter_html_tags",
-            "version": "3",
+            "version": "5",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -363,8 +393,18 @@
             "mod-version": "3"
         },
         {
+            "id": "treesitter_java",
+            "version": "1",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
             "id": "treesitter_javascript",
-            "version": "7",
+            "version": "9",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {},
@@ -401,8 +441,18 @@
             "mod-version": "3"
         },
         {
+            "id": "treesitter_json",
+            "version": "1",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
             "id": "treesitter_jsx",
-            "version": "2",
+            "version": "4",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -438,7 +488,7 @@
         },
         {
             "id": "treesitter_julia",
-            "version": "14",
+            "version": "16",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -473,8 +523,18 @@
             "mod-version": "3"
         },
         {
+            "id": "treesitter_kotlin",
+            "version": "1",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
             "id": "treesitter_lua",
-            "version": "7",
+            "version": "9",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -509,8 +569,79 @@
             "mod-version": "3"
         },
         {
+            "id": "treesitter_markdown",
+            "version": "2",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
+            "id": "treesitter_markdown_inline",
+            "version": "2",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
+            "id": "treesitter_php",
+            "version": "2",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {},
+                "treesitter_php_only": {}
+            },
+            "files": []
+        },
+        {
+            "id": "treesitter_php_only",
+            "version": "1",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
+            "id": "treesitter_python",
+            "version": "1",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
+            "id": "treesitter_regex",
+            "version": "1",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
+            "id": "treesitter_ruby",
+            "version": "1",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
             "id": "treesitter_rust",
-            "version": "18",
+            "version": "20",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -545,8 +676,61 @@
             "mod-version": "3"
         },
         {
-            "id": "treesitter_zig",
+            "id": "treesitter_toml",
+            "version": "1",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
+            "id": "treesitter_tsx",
             "version": "2",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {},
+                "treesitter_jsx": {},
+                "treesitter_typescript": {}
+            },
+            "files": []
+        },
+        {
+            "id": "treesitter_typescript",
+            "version": "2",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {},
+                "treesitter_ecma": {}
+            },
+            "files": []
+        },
+        {
+            "id": "treesitter_xml",
+            "version": "2",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
+            "id": "treesitter_yaml",
+            "version": "2",
+            "mod-version": "3",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": []
+        },
+        {
+            "id": "treesitter_zig",
+            "version": "4",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}

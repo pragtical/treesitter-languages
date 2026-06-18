@@ -3,6 +3,7 @@
 import logging
 import json
 import os
+import re
 import subprocess
 import tomllib
 import zipfile
@@ -16,11 +17,14 @@ logger = logging.getLogger(__name__)
 
 
 def git_remote_commit(url: str, rev: str = "HEAD") -> str:
-    return (
+    commit = (
         subprocess.check_output(["git", "ls-remote", url, rev])
         .split(b"\t", 1)[0]
         .decode()
     )
+    if not commit and re.fullmatch(r"[0-9a-fA-F]{40}", rev):
+        return rev
+    return commit
 
 
 def ensure_nvts():
@@ -51,13 +55,23 @@ def check_lang(
     lock, name, opts, queries_updated=True
 ) -> Tuple[bool, Language, str | None, dict]:
     cmt_lock = lock.get("commit")
+    package_format_lock = lock.get("package_format")
+    source_path_lock = lock.get("source_path", "")
+    source_path = opts.get("source_path", "")
+    revision = opts.get("revision", "HEAD")
+    srcpkg_exists = (SRCPKG_DIR / f"{NAME_PREFIX}{name}.zip").exists()
     ds_lock = lock.get("files", {})
     src_ds_lock = ds_lock.get("srcs", {})
     inc_ds_lock = ds_lock.get("incs", {})
     qry_ds_lock = ds_lock.get("queries", {})
 
     lang = Language(
-        name, opts.get("remote"), NVTS_QUERY_DIR / name, opts.get("files", [])
+        name,
+        opts.get("remote"),
+        NVTS_QUERY_DIR / name,
+        opts.get("files", []),
+        opts.get("source_path"),
+        revision,
     )
 
     changed = False
@@ -68,12 +82,17 @@ def check_lang(
     if "remote" in opts:
         logger.info(f"{name}: Checking for source updates")
 
-        cmt = git_remote_commit(opts["remote"])
+        cmt = git_remote_commit(opts["remote"], revision)
 
         logger.info(f"{name}: Last commit: {cmt_lock}")
         logger.info(f"{name}: Remote commit: {cmt}")
 
-        if cmt != cmt_lock:
+        if (
+            cmt != cmt_lock
+            or source_path != source_path_lock
+            or package_format_lock != PACKAGE_FORMAT
+            or not srcpkg_exists
+        ):
             lang.ensure_source(BUILD_DIR / lang.name)
 
             src_ds = lang.src_digests()
@@ -94,7 +113,7 @@ def check_lang(
         logger.info(f"{name}: No source defined")
 
     # if nvts has updated, check queries
-    if queries_updated:
+    if queries_updated or package_format_lock != PACKAGE_FORMAT or not srcpkg_exists:
         logger.info(f"{name}: Checking for query updates")
 
         lang.find_queries()
@@ -104,7 +123,7 @@ def check_lang(
         logger.info(f"{name}: Last query digests: {qry_ds_lock}")
         logger.info(f"{name}: Current query digests: {qry_ds}")
 
-        if qry_ds != qry_ds_lock:
+        if qry_ds != qry_ds_lock or package_format_lock != PACKAGE_FORMAT or not srcpkg_exists:
             changed = True
 
     return changed, lang, cmt, digests
@@ -180,6 +199,11 @@ if __name__ == "__main__":
 
             if lang_commit:
                 lang_lock["commit"] = lang_commit
+            if opts.get("source_path"):
+                lang_lock["source_path"] = opts["source_path"]
+            else:
+                lang_lock.pop("source_path", None)
+            lang_lock["package_format"] = PACKAGE_FORMAT
 
             if "files" not in lang_lock:
                 lang_lock["files"] = {}

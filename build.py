@@ -34,7 +34,9 @@ if __name__ == "__main__":
                 logger.info(f"{name}: Building shared library")
 
                 subprocess.run(
-                    ["make", f"SOEXT={SOEXT}"], cwd=SRCPKG_DIR / f"{NAME_PREFIX}{name}"
+                    ["make", f"SOEXT={SOEXT}"],
+                    cwd=SRCPKG_DIR / f"{NAME_PREFIX}{name}",
+                    check=True,
                 )
 
             logger.info(f"{name}: Creating package")

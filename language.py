@@ -17,10 +17,18 @@ with open("init.lua.in", "r") as f:
 
 class Language:
     def __init__(
-        self, name: str, remote: str | None, queries_dir: Path, patterns: list[str]
+        self,
+        name: str,
+        remote: str | None,
+        queries_dir: Path,
+        patterns: list[str],
+        source_path: str | None = None,
+        revision: str = "HEAD",
     ):
         self.name = name
         self.remote = remote
+        self.revision = revision
+        self.source_path = Path(source_path) if source_path else Path()
 
         self.queries_dir = queries_dir
         self.queries: list[str] = []
@@ -39,9 +47,34 @@ class Language:
             return
 
         logger.info(f"{self.name}: Fetching source")
-        os.makedirs(path, exist_ok=True)
-        subprocess.run(["git", "clone", "--depth", "1", self.remote, path])
-        self.source = Source(self.name, path)
+        if path.exists() and any(path.iterdir()):
+            logger.info(f"{self.name}: Using existing source")
+            if (path / ".git").exists():
+                subprocess.run(
+                    ["git", "fetch", "--depth", "1", "origin", self.revision],
+                    cwd=path,
+                    check=True,
+                )
+                subprocess.run(
+                    ["git", "checkout", "--detach", "FETCH_HEAD"],
+                    cwd=path,
+                    check=True,
+                )
+        else:
+            os.makedirs(path, exist_ok=True)
+            subprocess.run(["git", "clone", "--depth", "1", self.remote, path], check=True)
+            if self.revision != "HEAD":
+                subprocess.run(
+                    ["git", "fetch", "--depth", "1", "origin", self.revision],
+                    cwd=path,
+                    check=True,
+                )
+                subprocess.run(
+                    ["git", "checkout", "--detach", "FETCH_HEAD"],
+                    cwd=path,
+                    check=True,
+                )
+        self.source = Source(self.name, path, self.source_path)
 
     def find_queries(self):
         if self.queries:
@@ -96,7 +129,16 @@ class Language:
 
             ar.writestr("Makefile", self.source.get_makefile())
 
-            lang_license = next(self.source.dir.glob("LICENSE*", case_sensitive=False), None)
+            lang_license = next(
+                (self.source.dir / self.source_path).glob(
+                    "LICENSE*", case_sensitive=False
+                ),
+                None,
+            )
+            if not lang_license:
+                lang_license = next(
+                    self.source.dir.glob("LICENSE*", case_sensitive=False), None
+                )
             if lang_license:
                 ar.write(lang_license, arcname=LANGUAGE_LICENSE_FILE)
 
@@ -112,7 +154,10 @@ class Language:
         ar.write(NVTS_LICENSE_FILE, arcname=QUERY_LICENSE_FILE)
 
     def get_initlua(self) -> str:
-        ps = ", ".join(f"'{p}'" for p in self.patterns)
+        patterns = self.patterns
+        if self.source and not patterns:
+            patterns = ["^$"]
+        ps = ", ".join(f"'{p}'" for p in patterns)
         so = "'parser{SOEXT}'" if self.source else "nil"
 
         return INIT_LUA_TEMPLATE.substitute(

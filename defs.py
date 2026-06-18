@@ -11,7 +11,7 @@ DIST_DIR = Path("dist")
 
 NVTS_URL = "https://github.com/nvim-treesitter/nvim-treesitter.git"
 NVTS_DIR = BUILD_DIR / "nvim-treesitter"
-NVTS_QUERY_DIR = NVTS_DIR / "queries"
+NVTS_QUERY_DIR = NVTS_DIR / "runtime" / "queries"
 NVTS_LICENSE_FILE = NVTS_DIR / "LICENSE"
 
 QUERY_PATH = Path("queries")
@@ -36,6 +36,7 @@ LANGUAGE_LICENSE_FILE = "LICENSE-grammar"
 NAME_PREFIX = "treesitter_"
 
 MODVERSION = "3"
+PACKAGE_FORMAT = "3"
 
 SOEXT = os.environ.get("SOEXT", ".so")
 PLATFORM = os.environ.get("PLATFORM", "unknown")
