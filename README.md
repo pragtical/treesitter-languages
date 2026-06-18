@@ -17,8 +17,6 @@ it greatly simplifies dealing with dependencies, and provides automatic updates.
 
 ## Plugin manager (recommended)
 
-### pragtical pm
-
 Add this repository to your sources:
 ```sh
 pragtical pm repo add https://github.com/pragtical/treesitter-languages.git:master
@@ -70,7 +68,7 @@ Otherwise, building is not required.
 
 # Licensing
 
-`treesitter-languages` is licensed under the MIT license.  
+`treesitter-languages` is licensed under the MIT license.
 `nvim-treesitter` is licensed under the Apache-2.0 license.
 
 You should receive these two licences, as well as the license of the Tree-sitter grammar for the language when downloading a plugin.
