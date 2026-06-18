@@ -2,7 +2,7 @@ name: Build packages
 
 on:
   push:
-    branches-ignore: [ main ]
+    branches-ignore: [ master ]
   workflow_call:
   workflow_dispatch:
 

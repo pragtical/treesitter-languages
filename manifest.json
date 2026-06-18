@@ -1,584 +1,584 @@
 {
     "addons": [
         {
-            "id": "evergreen_c",
+            "id": "treesitter_c",
             "version": "13",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {}
+                "treesitter": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_c-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_c-aarch64-darwin.zip",
                     "checksum": "53e78e00703f5e6cd0459bc576141bd066a03ae620495e8c5a91ccc5c3c5b1c4"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_c-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_c-aarch64-linux.zip",
                     "checksum": "eda2083428217b0ce764e29b53ae3ff47df45a00228c93038d83c098133257a3"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_c-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_c-x86_64-darwin.zip",
                     "checksum": "9b09c6d425b9b2e11b03a7d2a73f558194b9826b426f4c86a963de2373f1e96e"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_c-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_c-x86_64-linux.zip",
                     "checksum": "cd531077187ce29866baa834c2e8d849451cb1ca15e98f10a10eb245b0da6465"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_c-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_c-x86_64-windows.zip",
                     "checksum": "921099d6f4b240d05b4e216d5c574f5e6ebdc7f9d1c3105b2a73deb9253e5541"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_cpp",
+            "id": "treesitter_cpp",
             "version": "15",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {},
-                "evergreen_c": {}
+                "treesitter": {},
+                "treesitter_c": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_cpp-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_cpp-aarch64-darwin.zip",
                     "checksum": "65455bc2bb6b156062dd6e6ab57c1065069e74d087636ce1f59388e252ba5052"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_cpp-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_cpp-aarch64-linux.zip",
                     "checksum": "e8abfa651faee02b04afe7b09051926d7a41fa49a8453081585112732b1dbd2d"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_cpp-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_cpp-x86_64-darwin.zip",
                     "checksum": "4ab63022f69faae8f0bd93adefcbee0ed6b1f36a395c38841daf8715108ba7f3"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_cpp-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_cpp-x86_64-linux.zip",
                     "checksum": "0987b8cb930d2edf14f26ae32e9a14d01772b1e2984471951040fc6827f24560"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_cpp-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_cpp-x86_64-windows.zip",
                     "checksum": "76d09d56068f910b0156ad06512f8ba78c63f8fd71605b9b961dbb3df48b6291"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_css",
+            "id": "treesitter_css",
             "version": "8",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {}
+                "treesitter": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_css-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_css-aarch64-darwin.zip",
                     "checksum": "ef13d9414b4edc52e43f79b2103af186074775da59ad27b076e20a2b685cd073"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_css-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_css-aarch64-linux.zip",
                     "checksum": "69b99db914fe6c69e773adc03d92ca1a655657f3977a3ac0fb268b52f81d7b9b"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_css-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_css-x86_64-darwin.zip",
                     "checksum": "c8c441066f556297a8e1a2c1f71517dcef6a3d7c3ec0a9e7c531dea0c39125f6"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_css-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_css-x86_64-linux.zip",
                     "checksum": "f64df73000c491da89bbd405a9d6a9290dfaab43945109bc4fffc4b709c573a8"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_css-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_css-x86_64-windows.zip",
                     "checksum": "a997ea809a9a64b5a1099b522e1ee34612df1e59fb3b29758a3c9db7cc2afeb8"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_d",
+            "id": "treesitter_d",
             "version": "9",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {}
+                "treesitter": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_d-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_d-aarch64-darwin.zip",
                     "checksum": "a52ae01cc566a053ae4fa91d1abe40f7a38a766b77653a553b8733971b91a61b"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_d-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_d-aarch64-linux.zip",
                     "checksum": "0457519d2d187a0de4f09cfca8cfdc0c6f8384056eb2af3b603d66d73bb6feff"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_d-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_d-x86_64-darwin.zip",
                     "checksum": "0d3969ef216cbac231743ef76fef826609617cafe5cfa32b5ca0e33ee1dadf2f"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_d-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_d-x86_64-linux.zip",
                     "checksum": "d761a02f83188170ded29b0635dee2858dbf9371cd49bd3c503511b363f45b35"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_d-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_d-x86_64-windows.zip",
                     "checksum": "405d3d0212c37504ba5559fb67cdefde32efea5c579eb74da5c100ed6925ada2"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_ecma",
+            "id": "treesitter_ecma",
             "version": "4",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {}
+                "treesitter": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_ecma-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_ecma-aarch64-darwin.zip",
                     "checksum": "940b334e419ddd746c04161c586d96800de77d03430eabc7b16c7b1d787ab3cc"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_ecma-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_ecma-aarch64-linux.zip",
                     "checksum": "61495a65cac495da8f44509db9cf55dd3f3758063e941eea9b7dfb326ce37279"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_ecma-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_ecma-x86_64-darwin.zip",
                     "checksum": "5a68ec87296c87068b11d80b408efc88512ed0993a5fe0ccccce6629a203874a"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_ecma-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_ecma-x86_64-linux.zip",
                     "checksum": "35c6075e43fb78e823e9c41cd1f431c60c1686d4f2f4ff0dcbfff0013ac966e4"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_ecma-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_ecma-x86_64-windows.zip",
                     "checksum": "a712926d191a07cd437d9752b73974375726a3c931036162b257fec3d40c21b4"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_go",
+            "id": "treesitter_go",
             "version": "10",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {}
+                "treesitter": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_go-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_go-aarch64-darwin.zip",
                     "checksum": "017f8af8f73be9f2e96f716cfb7dcd07c48afe153593fcc500636b896fd22429"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_go-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_go-aarch64-linux.zip",
                     "checksum": "0a80fbe914554b9ebfe2b4c60e5cebd35668ed858c8dc23f19294be57806b4e7"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_go-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_go-x86_64-darwin.zip",
                     "checksum": "44cf25abff83495b50dde5e65e821c71cb9d2e487b9dde41ff7e5f8151df1c2f"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_go-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_go-x86_64-linux.zip",
                     "checksum": "40b5569a412245b697ae989c6042bd5decbb1af35d8d2bedb4d1461269179b36"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_go-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_go-x86_64-windows.zip",
                     "checksum": "a09f5030cccdd527e74d31efe5f415e3d05b07bba7280f369b49fc107ef9547d"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_gomod",
+            "id": "treesitter_gomod",
             "version": "7",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {}
+                "treesitter": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_gomod-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_gomod-aarch64-darwin.zip",
                     "checksum": "100c719f764dba6989994ae1cae67bd6663a0dc5e9886764f3814f5644be4c95"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_gomod-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_gomod-aarch64-linux.zip",
                     "checksum": "8d43110f4e1207529f5663c1cb1add2eaf1dfc3f9e8feb7ca7ee5d55aa434aca"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_gomod-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_gomod-x86_64-darwin.zip",
                     "checksum": "c89cf177c73fe9ea9ada18aa9c6e0ae3cafd30c7a26fa3e700d9e3b5f8a0599d"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_gomod-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_gomod-x86_64-linux.zip",
                     "checksum": "2ee608dd9372f1b99445df392435835535a44a0b8b74526596bb073e1d3d247a"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_gomod-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_gomod-x86_64-windows.zip",
                     "checksum": "a98a6ec7ff465cc1d00a4fc0161988b59fdc3e485b8329cdb5b8ef87874ce445"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_gosum",
+            "id": "treesitter_gosum",
             "version": "2",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {}
+                "treesitter": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_gosum-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_gosum-aarch64-darwin.zip",
                     "checksum": "c4d3bc47cbe21d162ddf8a4b9d663cdd8a67dc7d79a91901fe67ab53bbe84534"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_gosum-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_gosum-aarch64-linux.zip",
                     "checksum": "97b8a23b377acd9c6e31ff6cf2983e737d3fa5e939d3464862802754b4893d7a"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_gosum-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_gosum-x86_64-darwin.zip",
                     "checksum": "2b1f15ae3a457b440bcf7ca2f5fd1b2ff7560bf567daadb8b70dc067497f52aa"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_gosum-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_gosum-x86_64-linux.zip",
                     "checksum": "18ce9fc25164b4f39f9410c4cda9b3ca2ace13ae839f1f92e82cccea0ad05720"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_gosum-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_gosum-x86_64-windows.zip",
                     "checksum": "fb9a906dfd82ba72893efd082b03f1b193ac6a017c1aef0ed16448151d7a365d"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_html",
+            "id": "treesitter_html",
             "version": "3",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {},
-                "evergreen_html_tags": {}
+                "treesitter": {},
+                "treesitter_html_tags": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_html-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_html-aarch64-darwin.zip",
                     "checksum": "a0972eb037f557a9e0574d03a2979eb3cc9e9595ba84ddbefaf48a083eb159f8"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_html-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_html-aarch64-linux.zip",
                     "checksum": "62de6496a38fca6aff7ffde45c02003546ec62f4cac384349632910d09ec5fa8"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_html-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_html-x86_64-darwin.zip",
                     "checksum": "4f420efd30d73b0eca4adc33534181247ab0302c9d809315f6d7b2d66a9ca4a9"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_html-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_html-x86_64-linux.zip",
                     "checksum": "5e2c873e5beec09caf68ff95e6fb94a8dbe84646189065d736e7f1e3ca461273"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_html-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_html-x86_64-windows.zip",
                     "checksum": "5209a41fbae644db202950a5f25a0c2f9240ec90e34f696d57949375fd2996a3"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_html_tags",
+            "id": "treesitter_html_tags",
             "version": "3",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {}
+                "treesitter": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_html_tags-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_html_tags-aarch64-darwin.zip",
                     "checksum": "b49b9322303d71f824e1bdee6de8adadb87ffd2e6b532471fa95fe88d2f35568"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_html_tags-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_html_tags-aarch64-linux.zip",
                     "checksum": "fa01d960fbdc184e68bb4ce1f677370d610fdcec052aa30f0d83a86cd70cd93d"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_html_tags-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_html_tags-x86_64-darwin.zip",
                     "checksum": "5a735d3f5e8436e852a19693186e5d32300fadf01b8e474ec0905bbe873bcadf"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_html_tags-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_html_tags-x86_64-linux.zip",
                     "checksum": "beef0fe1ec5bcebeff1f3952fd5e668029be53133d5d9a0ec00fbd30f4173c8f"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_html_tags-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_html_tags-x86_64-windows.zip",
                     "checksum": "f031dc0e11b068d313213abaec953da6a0f5d40e3d51ae55cd994a0f9dfe5f39"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_javascript",
+            "id": "treesitter_javascript",
             "version": "7",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {},
-                "evergreen_ecma": {},
-                "evergreen_jsx": {}
+                "treesitter": {},
+                "treesitter_ecma": {},
+                "treesitter_jsx": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_javascript-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_javascript-aarch64-darwin.zip",
                     "checksum": "135a80869fbaf3ee097eb1fd5f7e58669b3231c1b74d7b037529d05a8e013724"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_javascript-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_javascript-aarch64-linux.zip",
                     "checksum": "7192c5d291b9db2b7374285f2e4fc784434cf5b519c5295f6bb0c91896bc47dc"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_javascript-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_javascript-x86_64-darwin.zip",
                     "checksum": "fc50f1c77a4a0d2b1ef469ca26b23de52cc2883fcfae40cff8566d9411e28a75"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_javascript-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_javascript-x86_64-linux.zip",
                     "checksum": "6596ab7e492a902254429c5915bce779231f13ef9c21bc19eba10b4d77c39f90"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_javascript-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_javascript-x86_64-windows.zip",
                     "checksum": "7933e12a65f10ecfe8037375d57a5c0e59f805c72bd952fad6c7075182466075"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_jsx",
+            "id": "treesitter_jsx",
             "version": "2",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {}
+                "treesitter": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_jsx-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_jsx-aarch64-darwin.zip",
                     "checksum": "bc3c81b1668a879e318e4ee2db9fafceae9b19b79f6607d25df52a1492badacf"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_jsx-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_jsx-aarch64-linux.zip",
                     "checksum": "c5f568e028d85b66ca44a4b8df466bb0c24b957d6da9c6480916a87c19537322"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_jsx-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_jsx-x86_64-darwin.zip",
                     "checksum": "d9ae7918cae828f46d4a39923429f9e092cc22d02623e8883e57fab07735c67b"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_jsx-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_jsx-x86_64-linux.zip",
                     "checksum": "bc3c81b1668a879e318e4ee2db9fafceae9b19b79f6607d25df52a1492badacf"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_jsx-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_jsx-x86_64-windows.zip",
                     "checksum": "7c35dbdcd75943ff3de25952db19654ce8d3b316a90150b42276ade2698fadee"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_julia",
+            "id": "treesitter_julia",
             "version": "14",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {}
+                "treesitter": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_julia-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_julia-aarch64-darwin.zip",
                     "checksum": "d923363125cff9a6f589880abbb73e15b8f4386564bff6b7e389caee49e915d2"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_julia-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_julia-aarch64-linux.zip",
                     "checksum": "064ea534be195e4ce8302f7dc3dbf930add651689c328d37961492d1040d58fc"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_julia-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_julia-x86_64-darwin.zip",
                     "checksum": "95702c317b28b2f183d2312878ab947ad7caf7a7c449132a96da98c64f85b3dd"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_julia-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_julia-x86_64-linux.zip",
                     "checksum": "78f6914f675439d05fb979ccc6dae658b3593dec38ecefa90f4dba548db6587b"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_julia-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_julia-x86_64-windows.zip",
                     "checksum": "50cc7aacb4800bfc560ab133c1bd3a61dd88fa69ac01ac864ef172e16ee5f657"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_lua",
+            "id": "treesitter_lua",
             "version": "7",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {}
+                "treesitter": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_lua-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_lua-aarch64-darwin.zip",
                     "checksum": "6411dfa38425ebac69a09b2847492b36d7bc70668bbf18bd1073d7ceba836df2"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_lua-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_lua-aarch64-linux.zip",
                     "checksum": "a0ccb4adab88dbff3110399a4b3a400211e2cd66b088fc7ffa8fff24ec00ab93"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_lua-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_lua-x86_64-darwin.zip",
                     "checksum": "fd29ad265a9209c0560b59b13047d2db0daca3c0d29a4a86fb0334b89e9a8e86"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_lua-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_lua-x86_64-linux.zip",
                     "checksum": "abab9a735b3fc867543361b0f7242678e78ed4e914854919f1241c036413c89b"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_lua-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_lua-x86_64-windows.zip",
                     "checksum": "9c39fa0eabbcc6d55133619a5859497ac74059d9876250413eed7dc15f0bbc80"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_rust",
+            "id": "treesitter_rust",
             "version": "18",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {}
+                "treesitter": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_rust-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_rust-aarch64-darwin.zip",
                     "checksum": "3c8eaaa6d7373c93226c7b2e1eb2fb6b09d079262fe32a9b64daedc1de3efbce"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_rust-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_rust-aarch64-linux.zip",
                     "checksum": "3772a6cd0e53fe8732595f7c8914cf195ba0c86a2dcddf7843327b44152eff9d"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_rust-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_rust-x86_64-darwin.zip",
                     "checksum": "51f9654003166f6c75f2012b36395fc7fa72147fb1bd08e768c13a275fc25666"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_rust-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_rust-x86_64-linux.zip",
                     "checksum": "4e59f1e63423be10e54f147edab1a0b4858ff751cd40e866bef5c13ca9342901"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_rust-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_rust-x86_64-windows.zip",
                     "checksum": "cd74603b08583981aec985b5aa48b90ad5839a97c5b3a5b90d3e572ba00994c3"
                 }
-            ]
+            ],
+            "mod-version": "3"
         },
         {
-            "id": "evergreen_zig",
+            "id": "treesitter_zig",
             "version": "2",
-            "mod_version": "3",
             "type": "plugin",
             "dependencies": {
-                "evergreen": {}
+                "treesitter": {}
             },
             "files": [
                 {
                     "arch": "aarch64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-darwin/evergreen_zig-aarch64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_zig-aarch64-darwin.zip",
                     "checksum": "31ef405e386cf6f2e658c58b380a66fc257d8e251ff64f5e9bf57e628e528c8e"
                 },
                 {
                     "arch": "aarch64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/aarch64-linux/evergreen_zig-aarch64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_zig-aarch64-linux.zip",
                     "checksum": "a755f59bcb015ac94fa744e72b6d66eeead9673189848cb1ed97edcff998b676"
                 },
                 {
                     "arch": "x86_64-darwin",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-darwin/evergreen_zig-x86_64-darwin.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_zig-x86_64-darwin.zip",
                     "checksum": "e664000a2e404d362e80c213b08105f1fd7db7a2da779f8c36585b41ff856048"
                 },
                 {
                     "arch": "x86_64-linux",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-linux/evergreen_zig-x86_64-linux.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_zig-x86_64-linux.zip",
                     "checksum": "529e5d38854b4f52247de6d028957587e874f202c54afdec97a9fa73a2a1d732"
                 },
                 {
                     "arch": "x86_64-windows",
-                    "url": "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/x86_64-windows/evergreen_zig-x86_64-windows.zip",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_zig-x86_64-windows.zip",
                     "checksum": "24c7cad10b668089dd633a65e679254890da381357616dd425c038baf5c77114"
                 }
-            ]
+            ],
+            "mod-version": "3"
         }
     ]
 }

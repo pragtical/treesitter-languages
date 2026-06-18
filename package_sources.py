@@ -167,9 +167,9 @@ if __name__ == "__main__":
                 else:
                     bump_version(entry)
 
-                old_deps = entry.get("dependencies", set("evergreen"))
-                deps = set(f"evergreen_{v}" for v in lang.deps)
-                deps.add("evergreen")
+                old_deps = set(entry.get("dependencies", {}))
+                deps = set(f"treesitter_{v}" for v in lang.deps)
+                deps.add("treesitter")
 
                 if deps != old_deps:
                     logger.info(f"{name}: Updating dependencies")

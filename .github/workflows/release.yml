@@ -2,7 +2,7 @@ name: Release packages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   schedule:
     - cron: '38 7 * * *'
   workflow_call:

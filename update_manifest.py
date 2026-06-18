@@ -12,7 +12,7 @@ from defs import *
 logger = logging.getLogger(__name__)
 
 FILE_URL_TEMPLATE = Template(
-    "https://github.com/Evergreen-lxl/evergreen-languages/releases/download/"
+    "https://github.com/pragtical/treesitter-languages/releases/download/"
     "$PLATFORM/$FILENAME"
 )
 
@@ -22,18 +22,18 @@ def get_addons(manifest: dict) -> dict[str, dict]:
     addons = manifest.get("addons", {})
 
     for addon in addons:
-        addons_dict[addon["id"].replace("evergreen_", "")] = addon
+        addons_dict[addon["id"].replace("treesitter_", "")] = addon
 
     return addons_dict
 
 
 def make_addon(name: str) -> dict[str, Any]:
     return {
-        "id": f"evergreen_{name}",
+        "id": f"treesitter_{name}",
         "version": "0",
-        "mod_version": MODVERSION,
+        "mod-version": MODVERSION,
         "type": "plugin",
-        "dependencies": {"evergreen": {}},
+        "dependencies": {"treesitter": {}},
         "files": [],
     }
 
@@ -45,12 +45,12 @@ def bump_version(addon: dict):
 def update_file(files: list[dict], platform: str, filename: str, checksum: str):
     entry = next((f for f in files if f["arch"] == platform), None)
     if not entry:
-        logger.info(f"{name}: Created missing entry for {platform}")
+        logger.info(f"Created missing entry for {platform}")
 
         entry = {"arch": platform}
         files.append(entry)
     else:
-        logger.info(f"{name}: Updated entry for {platform}")
+        logger.info(f"Updated entry for {platform}")
 
     entry["url"] = FILE_URL_TEMPLATE.substitute(PLATFORM=platform, FILENAME=filename)
     entry["checksum"] = checksum
@@ -74,7 +74,7 @@ if __name__ == "__main__":
     updated: set[str] = set()
 
     for file in sorted(DIST_DIR.iterdir()):
-        m = re.fullmatch(r"evergreen_(.*?)\-(.*).zip", file.name)
+        m = re.fullmatch(r"treesitter_(.*?)\-(.*).zip", file.name)
         if not m:
             continue
 
