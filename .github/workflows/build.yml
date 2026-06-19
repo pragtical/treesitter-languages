@@ -97,7 +97,7 @@ jobs:
       matrix:
         arch:
           - name: x86_64
-            runner: macos-13
+            runner: macos-15-intel
           - name: aarch64
             runner: macos-14
     env:
