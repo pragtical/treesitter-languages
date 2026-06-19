@@ -81,10 +81,13 @@ class Language:
             return
 
         for query in QUERY_FILES:
-            if (self.queries_dir / query).exists():
-                self.queries.append(query)
+            query_path = self.queries_dir / query
+            if not query_path.exists():
+                continue
 
-            with open(self.queries_dir / query, "r") as f:
+            self.queries.append(query)
+
+            with open(query_path, "r") as f:
                 while True:
                     line = f.readline()
                     if not line or line[0] != ";":

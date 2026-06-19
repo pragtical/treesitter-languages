@@ -30,7 +30,7 @@ def git_remote_commit(url: str, rev: str = "HEAD") -> str:
 def ensure_nvts():
     if not NVTS_DIR.exists():
         logger.info("nvim-treesitter: Fetching queries")
-        subprocess.run(["git", "clone", "--depth", "1", NVTS_URL, NVTS_DIR])
+        subprocess.run(["git", "clone", "--depth", "1", NVTS_URL, NVTS_DIR], check=True)
     else:
         logger.info("nvim-treesitter: Already fetched queries")
 
@@ -112,9 +112,12 @@ def check_lang(
     else:
         logger.info(f"{name}: No source defined")
 
-    # if nvts has updated, check queries
-    if queries_updated or package_format_lock != PACKAGE_FORMAT or not srcpkg_exists:
+    needs_query_check = (
+        queries_updated or package_format_lock != PACKAGE_FORMAT or not srcpkg_exists
+    )
+    if needs_query_check:
         logger.info(f"{name}: Checking for query updates")
+        ensure_nvts()
 
         lang.find_queries()
         qry_ds = lang.query_digests()
