@@ -9,14 +9,15 @@
                     "src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "a4e5e1afa7656c3275629467170362997a7b36f51405b0fc0e6c0be080693acd"
+                    "highlights.scm": "a4e5e1afa7656c3275629467170362997a7b36f51405b0fc0e6c0be080693acd",
+                    "injections.scm": "cdadaef6c336ca6d75e53be80d1689f6b1d65182c2d51fc55226acded40ccc5c"
                 },
                 "srcs": {
                     "src/parser.c": "5ad30bb1a260c76df5397490b8bd97e272e62ed9c99be36fa53da959d7667e7f",
                     "src/scanner.c": "7cc25d70626f8939b35ecd504bf724e2001b817412aa29bceb4c4955a91558a9"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "c": {
             "commit": "b780e47fc780ddc8da13afa35a3f4ed5c157823d",
@@ -33,7 +34,7 @@
                     "src/parser.c": "f2883ff9b21f4a5bd5553c1b10366c418947d17a7bc6bf256124a7542f079dd2"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "c_sharp": {
             "commit": "88366631d598ce6595ec655ce1591b315cffb14c",
@@ -51,7 +52,7 @@
                     "src/scanner.c": "00920daa0fdf3050d441475e8effe996b60ee8acc1bdbcbbc4c83d56a6987705"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "cpp": {
             "commit": "8b5b49eb196bec7040441bee33b2c9a4838d6967",
@@ -62,14 +63,15 @@
                     "src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "a10230678cc32f0c45eab0d3109f5bbef9fa65210efb9f0576d0a3ebacc752a8"
+                    "highlights.scm": "a10230678cc32f0c45eab0d3109f5bbef9fa65210efb9f0576d0a3ebacc752a8",
+                    "injections.scm": "cf1a52cb953a35f2a2715129cdd4312443bde423bc49aa132b9da74ef234f096"
                 },
                 "srcs": {
                     "src/parser.c": "0007727b6e1fbc07657b6a4bf5dc39f524c6009fa347f9faaf180fa9ab17e999",
                     "src/scanner.c": "cf60387d290271f4d2fb558d0569b2b9ef879cb72206a9df5cc73b0b1a4b20ff"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "css": {
             "commit": "dda5cfc5722c429eaba1c910ca32c2c0c5bb1a3f",
@@ -87,7 +89,7 @@
                     "src/scanner.c": "18dae8c8c4f515f28a3dc7ffb5bda259b06013a752921dc411a2fad8ecf78988"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "d": {
             "commit": "8bcb13dbddf16ca44a42f8e98e8cf3d86b2b2e48",
@@ -105,7 +107,7 @@
                     "src/scanner.c": "e4aaa550e8d646326fb89450b82b30ed1134fe55ece6f83a1f6245f6fa539a7c"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "dockerfile": {
             "commit": "971acdd908568b4531b0ba28a445bf0bb720aba5",
@@ -116,22 +118,24 @@
                     "src/tree_sitter/parser.h": "a1f6ef161fbaf48a0e10fca90ef5290a062462b307b3898aa562993853b9f80a"
                 },
                 "queries": {
-                    "highlights.scm": "1f5e293fe9065c5bee5565ba5423e3ad7f3211ed13791a259db74f297c00df93"
+                    "highlights.scm": "1f5e293fe9065c5bee5565ba5423e3ad7f3211ed13791a259db74f297c00df93",
+                    "injections.scm": "528e6508f127cf583b2d8770e171f884b39fbcb31fe9b59b24daaf04248b7112"
                 },
                 "srcs": {
                     "src/parser.c": "4265eb2433dd67d270e4a901312d7050f686e6a45dca9e7879fdd2d49e7ed501",
                     "src/scanner.c": "1080c2eb2ac41f102974e009cb62f644d9d638dd2468d0a700674d07d346fde7"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "ecma": {
             "files": {
                 "queries": {
-                    "highlights.scm": "37834547ebaa9c160cad87eabd38387d4722b1b40d44bab54d8e71d1feff9b9e"
+                    "highlights.scm": "37834547ebaa9c160cad87eabd38387d4722b1b40d44bab54d8e71d1feff9b9e",
+                    "injections.scm": "b781a95b85af58d00dd129ea2c73858af3ea19678c2e7132ccc6596469c7c6db"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "go": {
             "commit": "2346a3ab1bb3857b48b29d779a1ef9799a248cd7",
@@ -142,13 +146,14 @@
                     "src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "81698c638abbf4c3a3ec8ccc3c6110be2cc725ad740bf87e6fa9ac685ecad267"
+                    "highlights.scm": "81698c638abbf4c3a3ec8ccc3c6110be2cc725ad740bf87e6fa9ac685ecad267",
+                    "injections.scm": "cab19bac3878e332acf9e405ce163986e502d083bfbedddf9901415924e8803f"
                 },
                 "srcs": {
                     "src/parser.c": "3dbf6ed1238b5dfcf2be4d2f2d4cb27a14d34f34d7784eccccbfd532fd4a6d85"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "gomod": {
             "commit": "2e886870578eeba1927a2dc4bd2e2b3f598c5f9a",
@@ -165,7 +170,7 @@
                     "src/parser.c": "6e4149f83d0a1cbfb5f74ad1cd32edd1737db80754798abcaf90d49a857c6d30"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "gosum": {
             "commit": "27816eb6b7315746ae9fcf711e4e1396dc1cf237",
@@ -182,7 +187,7 @@
                     "src/parser.c": "c4188c74bf59dd1856724904f12114a71bbaa77a89acfcfd17dbd7da909bc2af"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "html": {
             "commit": "73a3947324f6efddf9e17c0ea58d454843590cc0",
@@ -194,22 +199,24 @@
                     "src/tree_sitter/parser.h": "a1f6ef161fbaf48a0e10fca90ef5290a062462b307b3898aa562993853b9f80a"
                 },
                 "queries": {
-                    "highlights.scm": "51bd6796b8e61616ad967d31a68f6b53fc4ba44ecdec4001ec7f83fbe5f2d763"
+                    "highlights.scm": "51bd6796b8e61616ad967d31a68f6b53fc4ba44ecdec4001ec7f83fbe5f2d763",
+                    "injections.scm": "8fc292c0ba2d60e3808b7a58815d5cb8e7aee94c4d1310b9d1e0eec6b4462ee3"
                 },
                 "srcs": {
                     "src/parser.c": "65768172733b3bbe461cbdc14ea928f00fbfcc51d8ac68f0a5c72071c6a0bbf1",
                     "src/scanner.c": "5c0a0567e010277b81fe63be0acd04f6b44c3ef3063ac01429b910c1d22f0dca"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "html_tags": {
             "files": {
                 "queries": {
-                    "highlights.scm": "169e5655724ef9f67087ff02ed9b58855aff5783a90c76ce5640fc9fc22eca7e"
+                    "highlights.scm": "169e5655724ef9f67087ff02ed9b58855aff5783a90c76ce5640fc9fc22eca7e",
+                    "injections.scm": "f7404de989e7d13705c1a9bf9491097f777362b011331e5d97530cf1e129f8ce"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "java": {
             "commit": "e10607b45ff745f5f876bfa3e94fbcc6b44bdc11",
@@ -226,7 +233,7 @@
                     "src/parser.c": "4add5150cf4531eb5dd97f3343dcf65cd11704c84711348b328582b83424a0e4"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "javascript": {
             "commit": "58404d8cf191d69f2674a8fd507bd5776f46cb11",
@@ -237,14 +244,15 @@
                     "src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "d429c015300e55e5dbbe11c119b844bd6f56755e46d0d2152cb4443616ef2856"
+                    "highlights.scm": "d429c015300e55e5dbbe11c119b844bd6f56755e46d0d2152cb4443616ef2856",
+                    "injections.scm": "b6473f9af85876eaca477fbe61462e80f316c5b12387be62fe1b40cae72914c2"
                 },
                 "srcs": {
                     "src/parser.c": "67209ca7ef6e1a4f74e29e48b5928455f892fe1821a3960fbcd62f4e972f7384",
                     "src/scanner.c": "b3d3f64284d97bf80749c026862427782cf7ecc0b7dc094e6698ab311c9a42c7"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "json": {
             "commit": "001c28d7a29832b06b0e831ec77845553c89b56d",
@@ -261,15 +269,16 @@
                     "src/parser.c": "e8e1ff5df0d73e3b82574129724e68ef4fa0faf1b8c43dd3f5c1a84839f830ab"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "jsx": {
             "files": {
                 "queries": {
-                    "highlights.scm": "fbeaa6de60604615a8dc7c18eb6e0d33f32aee51628b57e6e03b0c8baf687568"
+                    "highlights.scm": "fbeaa6de60604615a8dc7c18eb6e0d33f32aee51628b57e6e03b0c8baf687568",
+                    "injections.scm": "85ded87ac041c56b6f0fde461983878d48dd29c51205c01908446ec26fc08d62"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "julia": {
             "commit": "e0f9dcd180fdcfcfa8d79a3531e11d99e79321d3",
@@ -280,14 +289,15 @@
                     "src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "7bb322f3c048a7e951b64e4c8a0bc97e782034f95dff15385b946eded569d94d"
+                    "highlights.scm": "7bb322f3c048a7e951b64e4c8a0bc97e782034f95dff15385b946eded569d94d",
+                    "injections.scm": "8c9533faf169d4734d7f6b0e84dd063055eb63cd4966f2e5416deaf574965db8"
                 },
                 "srcs": {
                     "src/parser.c": "420e28372baae12a7de3009a0dca532b5e99a23c3df9e24c82aa46e9a4e29914",
                     "src/scanner.c": "e6350a2f2725d966115d56142bf4e3e43dc13e3a3060744dd25f695363886e30"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "kotlin": {
             "commit": "93bfeee1555d2b1442d68c44b0afde2a3b069e46",
@@ -298,14 +308,15 @@
                     "src/tree_sitter/parser.h": "a1f6ef161fbaf48a0e10fca90ef5290a062462b307b3898aa562993853b9f80a"
                 },
                 "queries": {
-                    "highlights.scm": "24cf6c24ffd21109d642b05154491b2f64441151d9030d8e252cf469a525f433"
+                    "highlights.scm": "24cf6c24ffd21109d642b05154491b2f64441151d9030d8e252cf469a525f433",
+                    "injections.scm": "f827831a76ca93c2ba2b2b5ef76163dc1bd76c6d706be102c16d7fac933752bf"
                 },
                 "srcs": {
                     "src/parser.c": "618bc7455d64a1b2d343bf2e4e0f88918d2d214c4101c2936eaa8b4a60bdf363",
                     "src/scanner.c": "43326b4dffb350b6dd01bd68f4d48095cd8ffda10a1f35c8235de81b9ad976d5"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "lua": {
             "commit": "4fbec840c34149b7d5fe10097c93a320ee4af053",
@@ -316,14 +327,15 @@
                     "src/tree_sitter/parser.h": "11b654fbba7770b1c710cc14b169be2deb5d89c0f87233d4605037c26c1ff657"
                 },
                 "queries": {
-                    "highlights.scm": "ac7dfa89d16ba817c3681aa47c22bdb4441a78a89ed827a757efa755992de67f"
+                    "highlights.scm": "ac7dfa89d16ba817c3681aa47c22bdb4441a78a89ed827a757efa755992de67f",
+                    "injections.scm": "a2ee92c2f00f39ebeeb1d0cc06302dba58c4f1dda77a2f0c9e5d7d7beab0b1ff"
                 },
                 "srcs": {
                     "src/parser.c": "f27bed6f236145bd89097a1d7fd26377c8202fc89e3f126ab4c8aef72849d99c",
                     "src/scanner.c": "35bbd630b5a7421d46d2e91185eeea09bf78565d44cb676b63ca20d0f1b54bbd"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "markdown": {
             "commit": "c3570720f7f7bbad22fe96603f106276618e0cf5",
@@ -334,14 +346,15 @@
                     "tree-sitter-markdown/src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "7b71d4994cf3968e16d033ac59d28bb034427dd41be6a057b7a2985e2dfbe5b8"
+                    "highlights.scm": "7b71d4994cf3968e16d033ac59d28bb034427dd41be6a057b7a2985e2dfbe5b8",
+                    "injections.scm": "34090de78df99b5ea84c2fbb9324f2b7c32e602043595286e83f1a1ac126073c"
                 },
                 "srcs": {
                     "tree-sitter-markdown/src/parser.c": "0f51c93b5d79d08bc74088d91a9aafb7e40ad7e2f169164865c01d392277bb07",
                     "tree-sitter-markdown/src/scanner.c": "02834bcbaf0cf51178e74450d487cc0231b9a52541cd374527ee35cfaf17fd4a"
                 }
             },
-            "package_format": "3",
+            "package_format": "5",
             "source_path": "tree-sitter-markdown"
         },
         "markdown_inline": {
@@ -353,14 +366,15 @@
                     "tree-sitter-markdown-inline/src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "64af7f4e30c97681af9db94452e58c5e2a3ad43678b1644738eb8da21f8e778a"
+                    "highlights.scm": "64af7f4e30c97681af9db94452e58c5e2a3ad43678b1644738eb8da21f8e778a",
+                    "injections.scm": "051f44218e0fe25cd949dfccad80699d5456ee379c7c4cfa18a5165776ecab0e"
                 },
                 "srcs": {
                     "tree-sitter-markdown-inline/src/parser.c": "0c6aaec9097b10118b34601047c3b4d3d565defe48e95d133f714b592795fd2c",
                     "tree-sitter-markdown-inline/src/scanner.c": "6a9647420b7260955e8bf1b8338979726347211177bb5cf3d2a9c18109655ac3"
                 }
             },
-            "package_format": "3",
+            "package_format": "5",
             "source_path": "tree-sitter-markdown-inline"
         },
         "php": {
@@ -373,14 +387,15 @@
                     "php/src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "28a611e72b425f496800fd568aeb8ce3211112b44fbb7fb5c2b4b757b3148339"
+                    "highlights.scm": "28a611e72b425f496800fd568aeb8ce3211112b44fbb7fb5c2b4b757b3148339",
+                    "injections.scm": "bef9f28d3bcf124efacc6c91039c0e5c887b5e3e11f2b1a34075e2c330a838ac"
                 },
                 "srcs": {
                     "php/src/parser.c": "0f28076a40e7fe18d9000d2ccbdeebe3293f07cbf3a90644c1a0359b05af0dcd",
                     "php/src/scanner.c": "58c92cafe4ebda509c3ad3864fa6fc0e9877bbac26e17a03d23ea2101c291ad5"
                 }
             },
-            "package_format": "3",
+            "package_format": "5",
             "source_path": "php"
         },
         "php_only": {
@@ -393,15 +408,34 @@
                     "php_only/src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "1c5c28e4dbb1a592884d2ac1e3bbd9d6a2f5717b8a013fec2b6d836cc94ff9d1"
+                    "highlights.scm": "1c5c28e4dbb1a592884d2ac1e3bbd9d6a2f5717b8a013fec2b6d836cc94ff9d1",
+                    "injections.scm": "8163161e197b56fd1214870f36505ff2c54ab49b6a8149a87ab9a26ee146c9fc"
                 },
                 "srcs": {
                     "php_only/src/parser.c": "54a13aabc9c7f4ae0ced4037481c6bbccddbb1b21fc7c122ad21a0b277e2ddd0",
                     "php_only/src/scanner.c": "7a91ec341bef67f006e508f720edcd70b0d0eb73773584afa87ab7d12be25b14"
                 }
             },
-            "package_format": "3",
+            "package_format": "5",
             "source_path": "php_only"
+        },
+        "phpdoc": {
+            "commit": "12d50307e6c02e5f4f876fa6cf2edea1f7808c0d",
+            "files": {
+                "incs": {
+                    "src/tree_sitter/alloc.h": "253b44a7b4313a7afd0c505c2fc6e7ce4b8e78955ebf4be3ea000532ec060673",
+                    "src/tree_sitter/array.h": "4ff743903dc46f5db6aa54f31c6b4d160a8a9779e5b2ab1ee59ae7ebcd850ea1",
+                    "src/tree_sitter/parser.h": "a3eb18ef034b3f4255b965a26caa276f9cfe13a79573b402f1a12dc5018052aa"
+                },
+                "queries": {
+                    "highlights.scm": "8dc40567dcef0ce7b0e4b61cb4f2b58bedee8ae7efd0b1ba4f916814ad433396"
+                },
+                "srcs": {
+                    "src/parser.c": "bd6aa84edf44c8294fc87b39f17c6d6e687d4fec86f8249b9ef348206ae880e5",
+                    "src/scanner.c": "15233ee6035057fe10c8a76af956f5fef37d20a02f9bbf8781e0d5492cf5cdf0"
+                }
+            },
+            "package_format": "5"
         },
         "python": {
             "commit": "26855eabccb19c6abf499fbc5b8dc7cc9ab8bc64",
@@ -412,14 +446,15 @@
                     "src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "ab8b66cbe6a7382e0ed7693c194101f1900c39f9ec0085a1749a8817e3e6895c"
+                    "highlights.scm": "ab8b66cbe6a7382e0ed7693c194101f1900c39f9ec0085a1749a8817e3e6895c",
+                    "injections.scm": "6b7b539977afbe8a3d046cce3a119294fe3bbf67d35bcee2ef9f89708427808c"
                 },
                 "srcs": {
                     "src/parser.c": "53a7bd87ba22c4fdbb8566a2caf848a1478f3ac9d47a1b32677a71de75d75db6",
                     "src/scanner.c": "6db82134ac2d4c90a1a1475487a625cface02662ebda9b7478cad9c7147e9afe"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "regex": {
             "commit": "b2ac15e27fce703d2f37a79ccd94a5c0cbe9720b",
@@ -437,7 +472,7 @@
                     "src/parser.c": "ddf28eb5ad0dd0898b9ed0f2593852edac639a339a410d9e93350e472859700f"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "ruby": {
             "commit": "ad907a69da0c8a4f7a943a7fe012712208da6dee",
@@ -448,14 +483,15 @@
                     "src/tree_sitter/parser.h": "a1f6ef161fbaf48a0e10fca90ef5290a062462b307b3898aa562993853b9f80a"
                 },
                 "queries": {
-                    "highlights.scm": "ab2e3e5822e345f386ff9bc350409f9bf0fa70b5c39ebf8499974ee64426ed27"
+                    "highlights.scm": "ab2e3e5822e345f386ff9bc350409f9bf0fa70b5c39ebf8499974ee64426ed27",
+                    "injections.scm": "ebf4e176d6eb031f2fc7b535cd4e80ac87933f34a659b5e0b8fd920b89a9e63b"
                 },
                 "srcs": {
                     "src/parser.c": "4ce468358b6f4e25a35c8cf6bc0eaf60665bc22d602f8c939323c2347255cd15",
                     "src/scanner.c": "88c1c036d5af7c22a1bc9cc5e50411d414ac9624afed676d42957c566ac4083d"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "rust": {
             "commit": "77a3747266f4d621d0757825e6b11edcbf991ca5",
@@ -466,14 +502,15 @@
                     "src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "4e0f5994f30ee545fc63435054a0b029c7d0222632c5c787c4e9c249dc0ef20f"
+                    "highlights.scm": "4e0f5994f30ee545fc63435054a0b029c7d0222632c5c787c4e9c249dc0ef20f",
+                    "injections.scm": "7dde97bbdabd208f984e13627bd4daae0f73012c41faafab39d670b607710f4e"
                 },
                 "srcs": {
                     "src/parser.c": "9602518f9e57919910bf0e777e52f6bfc9325d4c182e998bdb4efd5682b76e4a",
                     "src/scanner.c": "9609a2f92dbb7c32bc056fd8fb94e5478428f04496696aa08b048a9b66caf283"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "toml": {
             "commit": "64b56832c2cffe41758f28e05c756a3a98d16f41",
@@ -491,7 +528,7 @@
                     "src/scanner.c": "b25ff3b5034f40046e9a041d1e9110aa46d081706bbd1b748b480701aa6f5bde"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "tsx": {
             "commit": "75b3874edb2dc714fb1fd77a32013d0f8699989f",
@@ -503,14 +540,15 @@
                     "tsx/src/tree_sitter/parser.h": "a1f6ef161fbaf48a0e10fca90ef5290a062462b307b3898aa562993853b9f80a"
                 },
                 "queries": {
-                    "highlights.scm": "0631577ba119c6b1f9fbabe70d70ad17ae81e4e7d8afb0e2309bd8acee0f5f76"
+                    "highlights.scm": "0631577ba119c6b1f9fbabe70d70ad17ae81e4e7d8afb0e2309bd8acee0f5f76",
+                    "injections.scm": "0631577ba119c6b1f9fbabe70d70ad17ae81e4e7d8afb0e2309bd8acee0f5f76"
                 },
                 "srcs": {
                     "tsx/src/parser.c": "1902cb53fa7ff5179df89b2eea863165e84c8cc866226419dc26921d8c055885",
                     "tsx/src/scanner.c": "d563cd30b2f39718c9ae4292795c5ce03a2ad01954ba3a86ef84c2781a736673"
                 }
             },
-            "package_format": "3",
+            "package_format": "5",
             "source_path": "tsx"
         },
         "typescript": {
@@ -523,14 +561,15 @@
                     "typescript/src/tree_sitter/parser.h": "a1f6ef161fbaf48a0e10fca90ef5290a062462b307b3898aa562993853b9f80a"
                 },
                 "queries": {
-                    "highlights.scm": "0caa2987e274d06aeb8f9a8a521c8348fc0dd92683b52a303338d066f0432137"
+                    "highlights.scm": "0caa2987e274d06aeb8f9a8a521c8348fc0dd92683b52a303338d066f0432137",
+                    "injections.scm": "aeabdbe587f8334f44483234914b64294aff416f7d2bb322b6a64ae44b936b12"
                 },
                 "srcs": {
                     "typescript/src/parser.c": "74fe453edd70f4eae9af0a1050cbd7943d8971d59165b6aaebbaa0a0b716d1aa",
                     "typescript/src/scanner.c": "9125013b42cb888379d9be909f1d73dfb75a37626c2cdbf4122718a2b431a6d3"
                 }
             },
-            "package_format": "3",
+            "package_format": "5",
             "source_path": "typescript"
         },
         "xml": {
@@ -543,14 +582,15 @@
                     "xml/src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "e3fb22e8840e0991b698cd87756ee28dcbb322c9657f0043070a94b9cc93cfc9"
+                    "highlights.scm": "e3fb22e8840e0991b698cd87756ee28dcbb322c9657f0043070a94b9cc93cfc9",
+                    "injections.scm": "a6603158f5d21b5a2c85a4eac3dddee2c3b9f8719e74e23a263b4f014041f7e3"
                 },
                 "srcs": {
                     "xml/src/parser.c": "e00f74ae7edcfc5e0cf9dc551a41a02e88a86dad9d6d13820e292bde794cdd94",
                     "xml/src/scanner.c": "c49be7a88f5bc0feee512ce704dc05b1fd53c20f2110a46fb987bd93509ef806"
                 }
             },
-            "package_format": "3",
+            "package_format": "5",
             "source_path": "xml"
         },
         "yaml": {
@@ -565,14 +605,15 @@
                     "src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "13352b80d2ce28c3328ccb2f321e5144c3365ff6055078e00e7cff118d1488b5"
+                    "highlights.scm": "13352b80d2ce28c3328ccb2f321e5144c3365ff6055078e00e7cff118d1488b5",
+                    "injections.scm": "8349bd07691e2e610decdfc7b898bb5b01b226aae8745217bc811427f7af6742"
                 },
                 "srcs": {
                     "src/parser.c": "02c5d32e95fa018a3c3ba7d7134d84bb7d5595c8874aa7ae6582745d9b40dede",
                     "src/scanner.c": "a510c0ca699cf3853bd2192bf103e11132414bc002fe952a88a7106ffb5d44e9"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         },
         "zig": {
             "commit": "a80a6e9be81b33b182ce6305ae4ea28e29211bd5",
@@ -589,7 +630,7 @@
                     "src/parser.c": "537d08b4473297d12045e07dc470bcd069ba2eb239ebb405f7bc755e63a12d27"
                 }
             },
-            "package_format": "3"
+            "package_format": "5"
         }
     },
     "nvim-treesitter": "4916d6592ede8c07973490d9322f187e07dfefac"

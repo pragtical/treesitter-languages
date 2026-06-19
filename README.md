@@ -27,23 +27,6 @@ To install support for languages `foo` and `bar`:
 pragtical pm install treesitter_foo treesitter_bar
 ```
 
-### Miq
-
-Add this repository to your sources in your user module:
-```lua
-config.plugins.miq.repos = {
-	'https://github.com/pragtical/treesitter-languages.git:master',
-}
-```
-
-To install support for languages `foo` and `bar`:
-```lua
-config.plugins.miq.plugins = {
-	'treesitter_foo',
-	'treesitter_bar',
-}
-```
-
 ## Manual
 
 ### Prebuilt plugins

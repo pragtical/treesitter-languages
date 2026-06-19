@@ -16,6 +16,21 @@ from update_manifest import bump_version, get_addons, make_addon, make_manifest
 logger = logging.getLogger(__name__)
 
 
+def transitive_deps(name: str, direct_deps: dict[str, set[str]]) -> set[str]:
+    deps = set()
+    stack = list(direct_deps.get(name, ()))
+
+    while stack:
+        dep = stack.pop()
+        if dep == name or dep in deps:
+            continue
+
+        deps.add(dep)
+        stack.extend(direct_deps.get(dep, ()))
+
+    return deps
+
+
 def git_remote_commit(url: str, rev: str = "HEAD") -> str:
     commit = (
         subprocess.check_output(["git", "ls-remote", url, rev])
@@ -52,7 +67,7 @@ def check_nvts(commit_lock) -> Tuple[bool, str]:
 
 
 def check_lang(
-    lock, name, opts, queries_updated=True
+    lock, name, opts, supported_languages, queries_updated=True
 ) -> Tuple[bool, Language, str | None, dict]:
     cmt_lock = lock.get("commit")
     package_format_lock = lock.get("package_format")
@@ -72,6 +87,7 @@ def check_lang(
         opts.get("files", []),
         opts.get("source_path"),
         revision,
+        supported_languages,
     )
 
     changed = False
@@ -153,13 +169,14 @@ if __name__ == "__main__":
 
     updated = []
     failed = []
+    direct_deps = {}
 
     for name, opts in config.items():
         try:
             lang_lock = langs_lock.get(name, {})
 
             lang_update, lang, lang_commit, lang_digests = check_lang(
-                lang_lock, name, opts, nvts_update
+                lang_lock, name, opts, set(config), nvts_update
             )
 
             if lang_update:
@@ -178,8 +195,6 @@ if __name__ == "__main__":
 
                 updated.append(name)
 
-                logger.info(f"{name}: Updating manifest")
-
                 entry = addons.get(name, None)
                 if not entry:
                     logger.info(f"{name}: Created missing entry in manifest")
@@ -188,17 +203,12 @@ if __name__ == "__main__":
                     addons[name] = entry
                 else:
                     bump_version(entry)
-
-                old_deps = set(entry.get("dependencies", {}))
-                deps = set(f"treesitter_{v}" for v in lang.deps)
-                deps.add("treesitter")
-
-                if deps != old_deps:
-                    logger.info(f"{name}: Updating dependencies")
-
-                    entry["dependencies"] = dict((v, {}) for v in sorted(deps))
             else:
                 logger.info(f"{name}: Skipping creation of source package")
+
+            ensure_nvts()
+            lang.find_queries()
+            direct_deps[name] = set(v for v in lang.deps if v in config)
 
             if lang_commit:
                 lang_lock["commit"] = lang_commit
@@ -218,6 +228,22 @@ if __name__ == "__main__":
         except Exception as e:
             logger.error(f"{name}: Error: {repr(e)}")
             failed.append(name)
+
+    for name in config:
+        entry = addons.get(name, None)
+        if not entry:
+            logger.info(f"{name}: Created missing entry in manifest")
+            entry = make_addon(name)
+            addons[name] = entry
+
+        old_deps = set(entry.get("dependencies", {}))
+        deps = set(f"{NAME_PREFIX}{v}" for v in transitive_deps(name, direct_deps))
+        deps.add("treesitter")
+
+        if deps != old_deps:
+            logger.info(f"{name}: Updating dependencies")
+            bump_version(entry)
+            entry["dependencies"] = dict((v, {}) for v in sorted(deps))
 
     with open(LOCK_FILE, "w") as f:
         json.dump(lock, f, indent=4, sort_keys=True)

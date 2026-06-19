@@ -15,7 +15,7 @@ NVTS_QUERY_DIR = NVTS_DIR / "runtime" / "queries"
 NVTS_LICENSE_FILE = NVTS_DIR / "LICENSE"
 
 QUERY_PATH = Path("queries")
-QUERY_FILES = ["highlights.scm"]
+QUERY_FILES = ["highlights.scm", "injections.scm"]
 
 SRC_PATH = Path("src/")
 INC_PATH = Path("src/")
@@ -36,7 +36,7 @@ LANGUAGE_LICENSE_FILE = "LICENSE-grammar"
 NAME_PREFIX = "treesitter_"
 
 MODVERSION = "3"
-PACKAGE_FORMAT = "3"
+PACKAGE_FORMAT = "5"
 
 SOEXT = os.environ.get("SOEXT", ".so")
 PLATFORM = os.environ.get("PLATFORM", "unknown")

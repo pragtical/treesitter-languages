@@ -1,6 +1,7 @@
 import hashlib
 import logging
 import os
+import re
 import subprocess
 import zipfile
 from pathlib import Path
@@ -24,6 +25,7 @@ class Language:
         patterns: list[str],
         source_path: str | None = None,
         revision: str = "HEAD",
+        supported_languages: set[str] | None = None,
     ):
         self.name = name
         self.remote = remote
@@ -32,6 +34,7 @@ class Language:
 
         self.queries_dir = queries_dir
         self.queries: list[str] = []
+        self.supported_languages = supported_languages or set()
 
         self.deps: set[str] = set()
         self.source: Source | None = None
@@ -85,16 +88,39 @@ class Language:
             if not query_path.exists():
                 continue
 
-            self.queries.append(query)
-
             with open(query_path, "r") as f:
+                text = f.read()
+                static_deps = {
+                    dep.replace("-", "_")
+                    for dep in re.findall(
+                        r'#set!\s+injection\.language\s+"?([A-Za-z0-9_-]+)"?',
+                        text,
+                    )
+                }
+                self.deps |= static_deps
+
+                f.seek(0)
+                inherits = set()
                 while True:
                     line = f.readline()
                     if not line or line[0] != ";":
                         break
 
                     if line.startswith("; inherits: "):
-                        self.deps |= set(dep.strip() for dep in line[12:].split(","))
+                        inherits |= set(dep.strip() for dep in line[12:].split(","))
+
+                self.deps |= inherits
+
+                if query == "injections.scm":
+                    supported_deps = static_deps & self.supported_languages
+                    if static_deps and not supported_deps and not inherits:
+                        logger.info(
+                            f"{self.name}: Skipping injections with unsupported "
+                            f"dependencies: {', '.join(sorted(static_deps))}"
+                        )
+                        continue
+
+            self.queries.append(query)
         logger.info(f"{self.name}: Found dependencies: {', '.join(sorted(self.deps))}")
 
     @staticmethod
@@ -162,7 +188,15 @@ class Language:
             patterns = ["^$"]
         ps = ", ".join(f"'{p}'" for p in patterns)
         so = "'parser{SOEXT}'" if self.source else "nil"
+        query_files = []
+        for query in self.queries:
+            name = query.removesuffix(".scm")
+            query_files.append(f"\t\t{name} = 'queries/{query}',")
 
         return INIT_LUA_TEMPLATE.substitute(
-            MODVERSION=MODVERSION, NAME=self.name, PATTERNS=ps, SOFILE_NAME=so
+            MODVERSION=MODVERSION,
+            NAME=self.name,
+            PATTERNS=ps,
+            SOFILE_NAME=so,
+            QUERY_FILES="\n".join(query_files),
         )

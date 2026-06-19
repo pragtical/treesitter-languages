@@ -2,6 +2,7 @@
 
 import logging
 import os
+import shutil
 import subprocess
 import tomllib
 import zipfile
@@ -26,6 +27,9 @@ if __name__ == "__main__":
 
         if srcpkg_ar.exists():
             logger.info(f"{name}: Extracting source package")
+
+            if srcpkg.exists():
+                shutil.rmtree(srcpkg)
 
             with zipfile.ZipFile(srcpkg_ar, "r") as ar:
                 ar.extractall(path=srcpkg)

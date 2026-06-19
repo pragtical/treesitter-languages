@@ -10,5 +10,7 @@ treesitter_languages.addDef {
 	files = { $PATTERNS },
 	path = USERDIR .. '/' .. path,
 	soFile = $SOFILE_NAME,
-	queryFiles = {},
+	queryFiles = {
+$QUERY_FILES
+	},
 }
