@@ -102,6 +102,7 @@ jobs:
             runner: macos-14
     env:
       CC: clang
+      STRIP: ""
       STRIPFLAGS: ""
       PLATFORM: ${{ matrix.arch.name }}-darwin
     steps:

@@ -14,7 +14,7 @@ _all: $$(SOFILE)
 
 $$(SOFILE): $$(OBJS)
 	$$(CC) -shared -o $$@ $$^ $$(LDFLAGS)
-	$$(STRIP) $$(STRIPFLAGS) $$@
+	@if [ -n "$$(STRIP)" ]; then $$(STRIP) $$(STRIPFLAGS) "$$@"; fi
 
 %.o: %.c
 	$$(CC) -c -o $$@ $$< $$(CFLAGS) $$(INCS)
