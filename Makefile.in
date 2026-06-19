@@ -1,4 +1,5 @@
-STRIP ?= strip --strip-unneeded
+STRIP ?= strip
+STRIPFLAGS ?= --strip-unneeded
 CFLAGS ?= -Os
 CFLAGS += -fPIC -std=$CSTD
 SOEXT ?= .so
@@ -13,7 +14,7 @@ _all: $$(SOFILE)
 
 $$(SOFILE): $$(OBJS)
 	$$(CC) -shared -o $$@ $$^ $$(LDFLAGS)
-	$$(STRIP) $$@
+	$$(STRIP) $$(STRIPFLAGS) $$@
 
 %.o: %.c
 	$$(CC) -c -o $$@ $$< $$(CFLAGS) $$(INCS)

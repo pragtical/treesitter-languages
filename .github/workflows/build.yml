@@ -55,11 +55,14 @@ jobs:
           - name: x86_64
             pkg:
             cc: gcc
+            strip: strip
           - name: aarch64
-            pkgs: gcc-aarch64-linux-gnu
+            pkgs: gcc-aarch64-linux-gnu binutils-aarch64-linux-gnu
             cc: aarch64-linux-gnu-gcc
+            strip: aarch64-linux-gnu-strip
     env:
       CC: ${{ matrix.arch.cc }}
+      STRIP: ${{ matrix.arch.strip }}
       PLATFORM: ${{ matrix.arch.name }}-linux
     steps:
       - name: Checkout sources
@@ -99,6 +102,7 @@ jobs:
             runner: macos-14
     env:
       CC: clang
+      STRIPFLAGS: ""
       PLATFORM: ${{ matrix.arch.name }}-darwin
     steps:
       - name: Checkout sources
