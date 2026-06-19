@@ -18,12 +18,12 @@ jobs:
       - name: Generate
         run: |
           python3 package_sources.py
-          touch srcpkg/no-more-failure
+          python3 -c "from pathlib import Path; import sys; sys.exit(0 if list(Path('srcpkg').glob('*.zip')) else 'no source packages generated')"
       - name: Upload source packages artifact
         uses: actions/upload-artifact@v4
         with:
           name: srcpkgs
-          path: srcpkg
+          path: srcpkg/*.zip
       - name: Upload updated metadata artifact
         uses: actions/upload-artifact@v4
         with:

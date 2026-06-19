@@ -39,12 +39,12 @@ jobs:
       - name: Build
         run: |
           python3 build.py
-          touch dist/no-more-failure
+          python3 -c "from pathlib import Path; import sys; sys.exit(0 if list(Path('dist').glob('*.zip')) else 'no packages generated')"
       - name: Upload packages artifact
         uses: actions/upload-artifact@v4
         with:
           name: pkgs-x86_64-windows
-          path: dist/
+          path: dist/*.zip
   build-linux:
     name: Build packages for Linux
     needs: generate-srcpkg
@@ -80,12 +80,12 @@ jobs:
       - name: Build
         run: |
           python3 build.py
-          touch dist/no-more-failure
+          python3 -c "from pathlib import Path; import sys; sys.exit(0 if list(Path('dist').glob('*.zip')) else 'no packages generated')"
       - name: Upload packages artifact
         uses: actions/upload-artifact@v4
         with:
           name: pkgs-${{ matrix.arch.name }}-linux
-          path: dist/
+          path: dist/*.zip
   build-darwin:
     name: Build packages for Darwin
     needs: generate-srcpkg
@@ -115,9 +115,9 @@ jobs:
       - name: Build
         run: |
           python3 build.py
-          touch dist/no-more-failure
+          python3 -c "from pathlib import Path; import sys; sys.exit(0 if list(Path('dist').glob('*.zip')) else 'no packages generated')"
       - name: Upload packages artifact
         uses: actions/upload-artifact@v4
         with:
           name: pkgs-${{ matrix.arch.name }}-darwin
-          path: dist/
+          path: dist/*.zip

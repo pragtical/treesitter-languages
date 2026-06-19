@@ -18,6 +18,8 @@ if __name__ == "__main__":
     with open(CONFIG_FILE, "rb") as f:
         config = tomllib.load(f)
 
+    built = 0
+
     for name in config:
         srcpkg = SRCPKG_DIR / f"{NAME_PREFIX}{name}"
         srcpkg_ar = SRCPKG_DIR / f"{NAME_PREFIX}{name}.zip"
@@ -56,3 +58,8 @@ if __name__ == "__main__":
 
                 for lic in srcpkg.glob("LICENSE*"):
                     ar.write(lic, arcname=lic.name)
+
+            built += 1
+
+    if built == 0:
+        raise RuntimeError(f"No source packages found in {SRCPKG_DIR}")
