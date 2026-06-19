@@ -54,6 +54,11 @@ class Language:
             logger.info(f"{self.name}: Using existing source")
             if (path / ".git").exists():
                 subprocess.run(
+                    ["git", "remote", "set-url", "origin", self.remote],
+                    cwd=path,
+                    check=True,
+                )
+                subprocess.run(
                     ["git", "fetch", "--depth", "1", "origin", self.revision],
                     cwd=path,
                     check=True,
