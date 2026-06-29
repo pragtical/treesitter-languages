@@ -2,7 +2,7 @@
     "addons": [
         {
             "id": "treesitter_bash",
-            "version": "14",
+            "version": "15",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -13,33 +13,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_bash-aarch64-darwin.zip",
-                    "checksum": "810df36c561b3920db728fcdb38550a00f001fb19474b324cdb45f0122b8e52c"
+                    "checksum": "9099c52c63360fd940f2c00e257097787dca731300304bc11613353796706ce5"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_bash-aarch64-linux.zip",
-                    "checksum": "daa7ea395a7dc8548c08a3e55992410e711216397f4e207b5bfe501278252c2f"
+                    "checksum": "6349bcacc2bb02f2ac59d5b02ef3754292a410c53cf9178e61aed3d007ed7e6f"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_bash-x86_64-darwin.zip",
-                    "checksum": "fb6f543a6cad2825214235bad91f50514ab3c31e6bc100094f609d8af92126ab"
+                    "checksum": "843973f133601b8f83ab9051b88bcb326fd437fffa1b0746687aac47faf34fc8"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_bash-x86_64-linux.zip",
-                    "checksum": "49e7c65e87f929ae7bbc6e5401cf7eb4934e83e0d5e0d7e63a86d77e3a70c6a7"
+                    "checksum": "6b4e6b96d899a86ce5cd7c583750c598991430c0975ca84a0c7c415dc2dfc540"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_bash-x86_64-windows.zip",
-                    "checksum": "e36e2973bfd54a77e59ff65e06e0403144fc2740b5bd8d116e1b0331077aa774"
+                    "checksum": "76494f16325c09a04b02e5a36b2f8ab89dd0b7b91ce592484ff1129a3723a932"
                 }
             ]
         },
         {
             "id": "treesitter_c",
-            "version": "27",
+            "version": "28",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -48,34 +48,34 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_c-aarch64-darwin.zip",
-                    "checksum": "8db71abe52e6e351e1975a34dfadc511b179238de2e0aba1e9f6fc79ac2a8d36"
+                    "checksum": "bb4609f2a98c2b34a61fa94e72bb6089be30ac4cba553e0368d4f9d95eb62ba6"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_c-aarch64-linux.zip",
-                    "checksum": "f2e4698d3e44bbcce438cae57d00d837ed71a3a5a6f156ffe9da8753919bd5b6"
+                    "checksum": "a66000675cff36de569b42b13de05df8688f61a2f8bef2ebc283fd7585204450"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_c-x86_64-darwin.zip",
-                    "checksum": "011e90fc90068f7ea738aade308b33a6b40e5bd1888ca918b51a6a689b79ce77"
+                    "checksum": "3b700f2eb0322766bc001c66ecb37534805cb2bd979930d21b19189ae563ed4a"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_c-x86_64-linux.zip",
-                    "checksum": "29f9e87effc6e8df796e964f3d1c2e669d0d3e00b5aeec726575945326cc472c"
+                    "checksum": "799865d5d7717e71a6e9af6c10ebecaf64d7378c1ae333e8c86232525af15c49"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_c-x86_64-windows.zip",
-                    "checksum": "c4f55b44bbbeba23e71db521c3d7a53201f0b1b6559006fdec8aea735b0d8eac"
+                    "checksum": "504ee2ae7a2fab40d98159920c99bd484fbba77b1481d728958a4367ef5ebef5"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_c_sharp",
-            "version": "13",
+            "version": "14",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -85,33 +85,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_c_sharp-aarch64-darwin.zip",
-                    "checksum": "133f8dc23d74f3688522d4586ab052d9f5457bd74837752ae1ebafc458667c53"
+                    "checksum": "2d0dff97d47e7a635b9f4aa8ac549801de36a48b913ed9114235d74c08e2d671"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_c_sharp-aarch64-linux.zip",
-                    "checksum": "8bfd5ff312cb3312fc0fe31cfd2eee9c77a3cbf379b9e586a20014e6a781ffae"
+                    "checksum": "a1133922ac03665f804e28802303faa069357b1c8d051e6a67ceaaf1549ae815"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_c_sharp-x86_64-darwin.zip",
-                    "checksum": "e48f028135bac8e082e5050e898f6396b3d015637516edafd806236ec08eab74"
+                    "checksum": "1885755f5585c745f760cf5bfc9e05a4c71d11069cf9eed6834d14b6a656deaa"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_c_sharp-x86_64-linux.zip",
-                    "checksum": "2de72000b57e45430c27a036994d3fc557490d8887613d80cf9fe8472eae39db"
+                    "checksum": "94eacc7e52fa6e27430ae8e94a5190e76ce3964a563ee99f0b0cadfc97b93b76"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_c_sharp-x86_64-windows.zip",
-                    "checksum": "fcf70a2b85507c50ef4b438883bb61d550f16abfead8394cbe2e96428d83cfdd"
+                    "checksum": "bed0dc442818eca64d7b064837d7036bb3c2e4e572b126320917cd4b2afb5b6e"
                 }
             ]
         },
         {
             "id": "treesitter_cpp",
-            "version": "29",
+            "version": "30",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {},
@@ -121,69 +121,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_cpp-aarch64-darwin.zip",
-                    "checksum": "b2d00c1edacca5d46274c417c050ae72fa63fe315c7d22f0746d7603d2c5d667"
+                    "checksum": "3ca226893bb6c4a0e8ed7c226dc34af4448ca6a72f0f013fc5171d8332ae06bf"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_cpp-aarch64-linux.zip",
-                    "checksum": "363b30314ae1b0469f1e73b158463b53b1a00262770563353ed20628f112ddbf"
+                    "checksum": "9bc0668e144c90931716859570f4d5b1c39c30b4eed540f9b3be47a34c2c7518"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_cpp-x86_64-darwin.zip",
-                    "checksum": "3ab652b1cb24678ed847966245e8903a7b8a23cb286a32e8569cb734e800c43e"
+                    "checksum": "dccf3171ce465ce43348294ebff3b9e3487c33fa363b028ab89ea9b09672d698"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_cpp-x86_64-linux.zip",
-                    "checksum": "2b07adbb346e3eccae20ba9ef689f8ac9db20469d1ca7ca99068999a9674d671"
+                    "checksum": "dc3e8723fa7fb5fe4c2ccd40733fee8c361a3ee08cf1773c4ffbe0402d8e53e3"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_cpp-x86_64-windows.zip",
-                    "checksum": "964023d70b3846f2852c4304563752316c4e86509f86051e09ea22229f060a1c"
+                    "checksum": "6118495a8e7ec4e8793b5224b01b40d49af7d9233def1685c7f6db014448b5df"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_css",
-            "version": "22",
-            "type": "plugin",
-            "dependencies": {
-                "treesitter": {}
-            },
-            "files": [
-                {
-                    "arch": "aarch64-darwin",
-                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_css-aarch64-darwin.zip",
-                    "checksum": "700cb06afa1d01e4ddd8e938d0bc393e99e011ff8d828deb470cef851072359c"
-                },
-                {
-                    "arch": "aarch64-linux",
-                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_css-aarch64-linux.zip",
-                    "checksum": "e4ea10c0d86ca91e6fda4fb27c8da435c00af73a6b99d6f8be37443b571600b1"
-                },
-                {
-                    "arch": "x86_64-darwin",
-                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_css-x86_64-darwin.zip",
-                    "checksum": "7535709505a4a0062cdd398363c34ed395c1a600fc00432b877156ea97e6a8a0"
-                },
-                {
-                    "arch": "x86_64-linux",
-                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_css-x86_64-linux.zip",
-                    "checksum": "d403da4d09f28f4cb0f8d19017cd4773235c75a7825557d23bef5bf9c7242412"
-                },
-                {
-                    "arch": "x86_64-windows",
-                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_css-x86_64-windows.zip",
-                    "checksum": "0757f92032ec325edfda4d467ee2ddee479bbe4142ee317c3892c92152e9824a"
-                }
-            ],
-            "mod-version": "3"
-        },
-        {
-            "id": "treesitter_d",
             "version": "23",
             "type": "plugin",
             "dependencies": {
@@ -192,35 +156,71 @@
             "files": [
                 {
                     "arch": "aarch64-darwin",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_css-aarch64-darwin.zip",
+                    "checksum": "c4601b085f50ed3002060216927344699e6e4fdaea85ebe228de0a326b2ab6d4"
+                },
+                {
+                    "arch": "aarch64-linux",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_css-aarch64-linux.zip",
+                    "checksum": "30830ee49ac8fd6c2a0b80c78b959005e1bba344932cc0673605f0ab8f09dd39"
+                },
+                {
+                    "arch": "x86_64-darwin",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_css-x86_64-darwin.zip",
+                    "checksum": "5c5a238c4fe5b47b0e64aa6b8185556b6b59ca1a9f04ce6ccaf5dc6080f52284"
+                },
+                {
+                    "arch": "x86_64-linux",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_css-x86_64-linux.zip",
+                    "checksum": "486065eafa74d0189c621553b9955aa76eda28d9d8dfb1f23d2460af6d2c0b2d"
+                },
+                {
+                    "arch": "x86_64-windows",
+                    "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_css-x86_64-windows.zip",
+                    "checksum": "cd8ba1b21828618c2136436db5f080e2063efa7966ee8c3fe442839e425fd1f8"
+                }
+            ],
+            "mod-version": "3"
+        },
+        {
+            "id": "treesitter_d",
+            "version": "24",
+            "type": "plugin",
+            "dependencies": {
+                "treesitter": {}
+            },
+            "files": [
+                {
+                    "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_d-aarch64-darwin.zip",
-                    "checksum": "d61c52540d7936ccf2ab7c93c77bcc04fc08a93474d19870a0d4e362312c656c"
+                    "checksum": "1bd42d9197631cc4217dd53c21a7f0bf8b2b6ce569ce8f04c8986ac04318c6ba"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_d-aarch64-linux.zip",
-                    "checksum": "7d54043a532dcc1e1956346c5c354c1737b4c67e38ee3eadf4549ea5051cd259"
+                    "checksum": "d5c4385463af0eb06c7086d6f93ac84ea5c2562c0fb10f8a2a9474bda503c73f"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_d-x86_64-darwin.zip",
-                    "checksum": "58e97281eb4a3bc0ad6730ef682c948f9aa1402a301117670f9f653401cfa561"
+                    "checksum": "1547fdcf47d82142bec3eae046edfcb7da41b616be7664edcf5aec0d66571519"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_d-x86_64-linux.zip",
-                    "checksum": "be7ca7790addc2f4cb2632fd475379aab5c62dd09c56b51305220563963df635"
+                    "checksum": "2b96bd382e3733d6ccf6c2823e09234295261d3dedcf1d1c09e4aa30c54f60e9"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_d-x86_64-windows.zip",
-                    "checksum": "9d90e61f671eef8f9fd04f7bd442294278dca244e45499499230f6e078127bee"
+                    "checksum": "c163398c6d4e033104e713d7d306afc36d016cb1e5624a1842d3edc9bab94e8f"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_dockerfile",
-            "version": "14",
+            "version": "15",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -232,33 +232,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_dockerfile-aarch64-darwin.zip",
-                    "checksum": "5f08bfc1b578f56ddb4b2109283ce851480ce15bef5d8ca16f99684b6509f48c"
+                    "checksum": "a41da80feb71622f743e3b83d550a7679ee148f1437b1503727ac7391d716112"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_dockerfile-aarch64-linux.zip",
-                    "checksum": "c29d0c8992e2f4f210c67ab48008218ee9d0f039278d48bb1779ead139f4bfdd"
+                    "checksum": "49cbebbc24d1277e647de4bbae4b1731c351177af39d121b34134af6aae0a0ae"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_dockerfile-x86_64-darwin.zip",
-                    "checksum": "6ec909510356c3e52a549ede1c869e6406c8907f040b0de6674734a0806009b0"
+                    "checksum": "66643ce6f255f409fee49458e2c3919e75e5a5783901c4d586f58d58221c65b9"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_dockerfile-x86_64-linux.zip",
-                    "checksum": "fa1660d116445ea0ef25250e03f96e3e5b196c2872005f225fc26bcbc54becab"
+                    "checksum": "e7dd8bc4f1d0b74f24bc2095a3e349625003bf6bec84a1ee0f163da5642eafe9"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_dockerfile-x86_64-windows.zip",
-                    "checksum": "e70e4c26ef92663bf4490398bca42f4c994913f03daa3538d513790103d691ea"
+                    "checksum": "d24c7a0e33bc3a34d81eb6e3dd54f86ad4dd6f9b122398c4913aa147e721e6a8"
                 }
             ]
         },
         {
             "id": "treesitter_ecma",
-            "version": "19",
+            "version": "20",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {},
@@ -276,34 +276,34 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_ecma-aarch64-darwin.zip",
-                    "checksum": "02c360ec27526193698899f38cd5ff8356f5fcc4108cae480257c1d671d5adb0"
+                    "checksum": "445f3373b0082989832ebd5dd09e336b3ef002b5fc1b20d69fecc50c22780712"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_ecma-aarch64-linux.zip",
-                    "checksum": "6a53b117f3da40773ff81a79005b8882863a2b318b4437432afb4b55c6bded38"
+                    "checksum": "3f0caee4af2b4472baeee9fc3e11e4bc8d0423aabcda72bb96fdb2bf6c025e20"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_ecma-x86_64-darwin.zip",
-                    "checksum": "18304b59435cbb22daf92d994c72ac296c3d2f5cddb3e13851b2a9a2bf1c7d6a"
+                    "checksum": "8c7984eeaec09aaee5ad80cd7a083ca6bb4273e20da0f1100979e0130ea54d47"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_ecma-x86_64-linux.zip",
-                    "checksum": "a8cb7bd6e946f06b2446edd7ca748d7a8ddd0151920376edb046c25aafd31ebc"
+                    "checksum": "41b0602ac878c0c30aa13b717e6bc003590ef0c26f20a7e0e43b9077061449da"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_ecma-x86_64-windows.zip",
-                    "checksum": "987a2351ab6c1e77a7a1a5f1b533cac0469e31ebb95f0468a135bb0cce0c1348"
+                    "checksum": "91ba030c6fa2b4042a1937245e9417f5534f9278287543b6b30be17571fb628d"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_go",
-            "version": "25",
+            "version": "26",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {},
@@ -313,34 +313,34 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_go-aarch64-darwin.zip",
-                    "checksum": "54b0f3ba0b2f215cf04f06624160cc1fef817acc7fcdfc3b1dfc64039ca15d30"
+                    "checksum": "f8e4fb5ee07c177f9013ef5ad796417f5c318eec1e6b2d01cddd5b3970171470"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_go-aarch64-linux.zip",
-                    "checksum": "511bfa499da47c9ade45aa000c09f9ba4fa4524c814b9ef2991ea29164362991"
+                    "checksum": "8e4b8c80ecf8391f1e530b3c7463ff41f7fe10e28bd484800952da3109e0ff41"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_go-x86_64-darwin.zip",
-                    "checksum": "2f7fb88d0715bb67900a29263633dca0137a75c6c9470566cadacae05f93c6cf"
+                    "checksum": "d42df3dfd4b25ed3cd176fc0580974023ea2e723fb7c232345251428f2e73230"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_go-x86_64-linux.zip",
-                    "checksum": "5569af5eb6b7a2a1faf16dfeb1bbbad37c50bf3e10d9fdc7efc5c97072b9e895"
+                    "checksum": "824c6c2a3192438ebbee48db44ac562a32325d8f08b8de974ca533f35e21068e"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_go-x86_64-windows.zip",
-                    "checksum": "02643bc973f7361d63c9e8b8637e51edb8568c3d658d2bdc6072c1bf596ebb41"
+                    "checksum": "036871fa681bd9945ec9731b54854d978f6f15b97f40d32b41d547a1f1727ec1"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_gomod",
-            "version": "21",
+            "version": "22",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -349,34 +349,34 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_gomod-aarch64-darwin.zip",
-                    "checksum": "563547c33eb3f75646ba0a9f51d32bdb0dea529db3f6a98c4a59894b26130321"
+                    "checksum": "60a74ea1c6543f879fbd68689cbce342aa553de8ca7544b8474cd11fda9f59dc"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_gomod-aarch64-linux.zip",
-                    "checksum": "f66956c6b7741111f61127ca1a682f68f29186e376afa301d0097d45b4e2a34d"
+                    "checksum": "4a7bd78c8877726a98f01fcc84d37f7fd7e97747ca7f9ca184367173f01f3ed1"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_gomod-x86_64-darwin.zip",
-                    "checksum": "f72680c3c0d00fe1f0438d7cfc7dfac97edc7ff56a03b2758ea46e9eb455d589"
+                    "checksum": "0006bc9e122cc3c2645bb2d958d590a429143baa9b204c329d3e5e43cf2ea0b3"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_gomod-x86_64-linux.zip",
-                    "checksum": "9b94159fe6dbcff49d2a49353a8e3989b521b5c041babae790cb1d78dced0d24"
+                    "checksum": "656e600a5fba5736cfa97741b5c8a4ac828e9deab23782ba9126d1ef7b809127"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_gomod-x86_64-windows.zip",
-                    "checksum": "8132c0f3ca0614c9501e19e66deddfcfea3f162cc936c3d84880d007997de5fa"
+                    "checksum": "388158025fc4cf60fe92198236262ab7f00f0060dc33864384d256e3f08c7d57"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_gosum",
-            "version": "16",
+            "version": "17",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -385,34 +385,34 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_gosum-aarch64-darwin.zip",
-                    "checksum": "2cf6245fd566de076371b52e8b19affa235ef0b9ce8bbc1250937b63108f3eb7"
+                    "checksum": "f72e193b842da5d3cd685009f1b485cc7490b9c99115f2d582db084bae451512"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_gosum-aarch64-linux.zip",
-                    "checksum": "74f0e90b11be2b805d85fc7d87f04d9682771b00007dabe60fbdd7db1a1198dd"
+                    "checksum": "baedcd66dc2b53af98a4f890bae5ca9bccf0709251d38cfc11ff54ac1f01efda"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_gosum-x86_64-darwin.zip",
-                    "checksum": "c450cb4d2677da277e27f965d587f2828cf6089a6abe6e4a58002947c88dd373"
+                    "checksum": "a040c68449a411a77f8c4d78d271c995c746eabf218ae28b7207f467c97da97a"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_gosum-x86_64-linux.zip",
-                    "checksum": "dbef24f5476acae5bf64af7ac9b92ee171a797ba5ef5e9904888c6360c5e3a08"
+                    "checksum": "f7ebd6f3b4c82f4bcf4a1d43e0e04835717ea9055cee760fed3f508e78e644fc"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_gosum-x86_64-windows.zip",
-                    "checksum": "3652f6e5b24b96db291283b36933672eb446bff37800a4655637846b31929e9a"
+                    "checksum": "0c69a1da5c6eacaa82b84bec141a251aa81d4b5e959cf242709da68baa7e1b61"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_html",
-            "version": "18",
+            "version": "19",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {},
@@ -430,34 +430,34 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_html-aarch64-darwin.zip",
-                    "checksum": "dacbacf67172ad1584e67eb4e5815044b2c54bcf8c278806e7a7a8309698ec3a"
+                    "checksum": "cd0247ace8a731d77f8a93cce5bfd7f1b54eeb0f98056d286e0915c74bd44d0e"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_html-aarch64-linux.zip",
-                    "checksum": "576e25662a97d353f4c05abd006976864d2f615f2405edc3e31dd31847808aea"
+                    "checksum": "ddab4aa69db2f8e25a2f99966e65f0cb152f7c70bde9fa9e94284de124ec1e4c"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_html-x86_64-darwin.zip",
-                    "checksum": "2e06d79d0f83924727340f2e8aa141af6d4b7d8ab41091ee7ff8098ea4a7891e"
+                    "checksum": "804c7c0b0b07ea24f7298b9c5dea2255cc6ba83af2961530bd94ee7d33d113ce"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_html-x86_64-linux.zip",
-                    "checksum": "89a914b3057db90fb188abf4bb2370f3a1fd4b7307198e921fb17d7304cd2278"
+                    "checksum": "6411b49acde1fae862b3504282336df0b151a435c8faa29998f9a9f413859472"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_html-x86_64-windows.zip",
-                    "checksum": "58be33a4470767ddc2a812b886c97d7ee5927f6368eee2208efc0280f2b2b213"
+                    "checksum": "217a9f76152d334ed64f7cfd2ea9d5711f2865d50c7dede7d29f6b63457db23d"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_html_tags",
-            "version": "18",
+            "version": "19",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {},
@@ -475,34 +475,34 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_html_tags-aarch64-darwin.zip",
-                    "checksum": "7441caa6d778c54c34b41c690bf2d574982df941f091d75e202b3a63bda00c18"
+                    "checksum": "fbf8a45023b41896554cffcc90dba722b40a893eab3e5a1c47baceab00f0efbb"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_html_tags-aarch64-linux.zip",
-                    "checksum": "c636c66b63cca98ad9a8bb46abb6fcc9bc4df940c649021d9ce5fd000d64170d"
+                    "checksum": "7914254bbb34cadbf0d5bab0ede1fa95218059742bb5053d00a330b005d4d4eb"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_html_tags-x86_64-darwin.zip",
-                    "checksum": "72645ac10a810a5f077b091e4e2543281ef282c61c0dd619dd66b106e5ba15b0"
+                    "checksum": "7a4692619cfaf0775936816e17057772d064f90de09e73ebaaa8e8b9a38e09c1"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_html_tags-x86_64-linux.zip",
-                    "checksum": "39fd720d3add29bdf57f24cc1a833f761d4de177c453d05bd319674b904618ad"
+                    "checksum": "f77c33acd1bc54e648b600007a2cab1cc44a133d53725b4bd974663715a8e929"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_html_tags-x86_64-windows.zip",
-                    "checksum": "bcf321bdc1c4c9241569280f8bcb1c0aa4e5beb1fc91c3e1a753308027b3c82a"
+                    "checksum": "56709aa548278f9c01b20fff544c322d106c2223a43892854c35830cf108197e"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_java",
-            "version": "13",
+            "version": "14",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -512,33 +512,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_java-aarch64-darwin.zip",
-                    "checksum": "73137e487e1691b81f9ec43caedf5931baf3529e1924172261c6cdfbe9a24c6b"
+                    "checksum": "a0d22820753cb98c03123b71307a7520c55ccdd741d1f351c29a04375e634743"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_java-aarch64-linux.zip",
-                    "checksum": "3f8d8456ea89aba87d3827a4b534680d8b6ce4e63d781374e9b3f39451cbf83e"
+                    "checksum": "1d5164f654e9472a24d72b32496f582d01baaad57f8f25c3ccf09538a777c85c"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_java-x86_64-darwin.zip",
-                    "checksum": "ab6c1916edcda9dea7695e6db38076b2dd7b283a6665f0bd02ecd7923f11e4d7"
+                    "checksum": "852381d578f83cff8d94f0ea8916bfd2f1591d8c1380c6a4ac0a8f541081da0e"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_java-x86_64-linux.zip",
-                    "checksum": "6ba86a0d78e236caac14f76ebc5abaa725272e16e1ce8bf28c7eb2b04faf35ca"
+                    "checksum": "72cc39e0b384daaaccf9489836c2bdd71341648fc94c8572073bc34e19126690"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_java-x86_64-windows.zip",
-                    "checksum": "45a65c9ba00d292e45e23218ab0d0a5f11a8b877875e319f72822fb8bae9b29e"
+                    "checksum": "97bfb4d5f2bc4114a0c05c0f9610e207f64ac6b67a362eab8dead5c2b76e4d2c"
                 }
             ]
         },
         {
             "id": "treesitter_javascript",
-            "version": "22",
+            "version": "23",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {},
@@ -556,34 +556,34 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_javascript-aarch64-darwin.zip",
-                    "checksum": "7a1c544d72c0515d8f8ec6c36473996361163f36d8b486b99d54dfef058daf49"
+                    "checksum": "cd8cc1839fddf9b1d1f2070b9769ce967e589ce98907de2d0100d781ec39da16"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_javascript-aarch64-linux.zip",
-                    "checksum": "56d4eb20189e58c53babfdd88efea0df621976500e10201413d4d3c2ad2da173"
+                    "checksum": "a4ad6dcb8e10d7b5b84e95f101b87ccc272597b0c6556b99c68dd03c36c51081"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_javascript-x86_64-darwin.zip",
-                    "checksum": "6245a6af71350acefdddd74ba67e1e7b6f16e731414a922c41602048f0266a15"
+                    "checksum": "14f2ad457cf2625dfc5183747b91cd5843752c5bccdcfc880f9afdd8006c47d4"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_javascript-x86_64-linux.zip",
-                    "checksum": "999a988fbadcddd7cbe166e8b76dbb760fe6db487f7b604118212d8a3751d338"
+                    "checksum": "d0f9a5c1b3abf09b41271944f2df4c92699abc211c854b2fb5b3793c0494db43"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_javascript-x86_64-windows.zip",
-                    "checksum": "ce0fd4a7c1789b674237b4438e756c495c94d8397870e8bca331c6f11450bd39"
+                    "checksum": "0cd82dfe3f8b2a8b5dd68399de70f12cfa3126be6ad46e4db889c846197314a7"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_json",
-            "version": "13",
+            "version": "14",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -593,33 +593,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_json-aarch64-darwin.zip",
-                    "checksum": "2e725d64996ef81a218c876fe618ce8f9852664602ab042c2f70fd75b6cc7648"
+                    "checksum": "716b3b82f6864bf3fa6e07a9d83385e3ae25c1af0d1495c49930b8c435d9399e"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_json-aarch64-linux.zip",
-                    "checksum": "b256010b85c8eb51a696a030cafa97b8c51660bba230ffabc68d52b45064b291"
+                    "checksum": "4fc56bd972a4c548126e658ce0af72a9e811b5b7347e8200161fbf318a8dd28d"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_json-x86_64-darwin.zip",
-                    "checksum": "05fc030d506f5e0401cc364669dfa318112e81db2f5c207bf46b40371448467c"
+                    "checksum": "59ca70a4b97a258b4e8353e51f03cb44587178c8a62aae9e25b207e85a60233e"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_json-x86_64-linux.zip",
-                    "checksum": "209aab88f8b00f5ec961e2b2f8e014eb37a95c7188c4de4a7237dff180c41082"
+                    "checksum": "8b9c0627a6f17e494ee7a742f03320bb2bdb4bfc8528cc60c2147d102be81f83"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_json-x86_64-windows.zip",
-                    "checksum": "131a756ba124456ee0926df752843feadc851c0d1333674ccf9cf3b7b7f20f12"
+                    "checksum": "9ee6d7d5f1e08463aa22b9bedd2c766b71dae6faed5d8191042971c6bf50580b"
                 }
             ]
         },
         {
             "id": "treesitter_jsx",
-            "version": "17",
+            "version": "18",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {},
@@ -629,34 +629,34 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_jsx-aarch64-darwin.zip",
-                    "checksum": "6085d268f59f794946f04a80ab6ac0f12c43c29a03f63482c5dc5699e715876c"
+                    "checksum": "b399d5f73721c8f2e3755a4858ac9571400dc6d68961c75872370e13cfdb0fb3"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_jsx-aarch64-linux.zip",
-                    "checksum": "efa66707b8b65d3a7b9bf167bcf0b6f274ab1b0adfa740609e87260a4a8f677d"
+                    "checksum": "a3634109ef9b36dc9687fe110d29c548823be29d9b9e69b4c60352de118e5a37"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_jsx-x86_64-darwin.zip",
-                    "checksum": "da3fd24e9af6580bac2f50397a9bd227060efaee2f5509b746a5c2dc258b0f3f"
+                    "checksum": "b59ee53263182efd55eed9b8a9d85aee3adfc3b54e7715704abac951035361d8"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_jsx-x86_64-linux.zip",
-                    "checksum": "039d5176051b9e86bc61ec283b28b2e55bcd35aff38001ba0b55e0cf4580b5ed"
+                    "checksum": "d430d57ebe48ceb601b23352cc7b4524a5d5959c243d58f81e4d5f328c6551cd"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_jsx-x86_64-windows.zip",
-                    "checksum": "07513ed718c3277dfc3f2b695be017905599ac8a8fd6256e1604083a798bf534"
+                    "checksum": "90430ef8ce7029c96b9b67d2d51aa04de05f84fa42b16c23a5402f111e4324e3"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_julia",
-            "version": "29",
+            "version": "30",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {},
@@ -679,34 +679,34 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_julia-aarch64-darwin.zip",
-                    "checksum": "c3ae80c0a597404f10b54d0c47a23fc3b15037c53f3e7f0f3cb5beadb9b747c8"
+                    "checksum": "e516b9303ea158c589d491052b2cb727f317ba74bb7c97a76f08f05f4adef910"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_julia-aarch64-linux.zip",
-                    "checksum": "b6fad358903815d01cfbb1fe7a0642f04721f30372ca5d8046078d2c97061b61"
+                    "checksum": "2c01c0c31b390560970a38fa67faab0b6c57db50d785399b8afcf9f1929b6080"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_julia-x86_64-darwin.zip",
-                    "checksum": "279e3db906b2c3152b7041174e1f00db8e6b069b5c3fc8440d9abec6f2ec265d"
+                    "checksum": "9be4a4691eb238d103307c24d118186660965f7565a42d9ab0591d9de21d2691"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_julia-x86_64-linux.zip",
-                    "checksum": "4bbfa4976629658362e09f56a8b69e95fd3e2c08ab763c73dac15d31e1a52c9e"
+                    "checksum": "17126f20b703e3d310fc454852b665e17345472c370e94fc88d5a1afd69dcbd3"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_julia-x86_64-windows.zip",
-                    "checksum": "989fc5b77786a9361f647fcf30135aceef8121c56e9f6ddb0cc869edf3197ca0"
+                    "checksum": "05d86ec983f04a4ebc1ec7ca96d4b15f60f25af28d9a355765525efd0e4e5a28"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_kotlin",
-            "version": "14",
+            "version": "15",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -717,33 +717,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_kotlin-aarch64-darwin.zip",
-                    "checksum": "c551e208c5dfcd701c3a5391fc242c0936a8dde24ad9bd08cf6aa0aa8d0b458d"
+                    "checksum": "1e80aa1058da8fe4d9c7c8b4d1622aeef142a5639b481e372b4864ddf26da0ec"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_kotlin-aarch64-linux.zip",
-                    "checksum": "41f4d0f04a5f39475836c716146e76e80fabd55831b8285edb4fd7179f8533d4"
+                    "checksum": "c6269a47c63f790708fafb64d8f5d8e0b4821d309622c6decb7bfbeaed639d3b"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_kotlin-x86_64-darwin.zip",
-                    "checksum": "9fcea48e072ab8cd727f76ec7f8664b14cb7432384069f5fecd56a0d8ddb888c"
+                    "checksum": "2cd101eca4d8af73efa5d40589b2150dfd2228d2c2f0e080fb077257fa9e744c"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_kotlin-x86_64-linux.zip",
-                    "checksum": "a3430cf8c3dca576bda5059b261c0b7d12c39ae452641d883ddb4018f2ef0a4e"
+                    "checksum": "525440897fc553eb87546da627347b65baf525bace544672858d00a310f58b65"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_kotlin-x86_64-windows.zip",
-                    "checksum": "147b33d943958959ea9161c99442e6411682ef47e8b4f287f55ebdaff89d3219"
+                    "checksum": "21d50ad0f9c19cc888f172c9040bdda0b168609ab11ef4c7bf58a349fc02ea76"
                 }
             ]
         },
         {
             "id": "treesitter_lua",
-            "version": "22",
+            "version": "23",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {},
@@ -753,34 +753,34 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_lua-aarch64-darwin.zip",
-                    "checksum": "727b2f0e9755fd627d1082d234e2c915a095a857d65aec18b63e428da541a80b"
+                    "checksum": "461e40e31391264132b9aabe6e08be911b8ac9af1586a8874192937c4f3ef9cb"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_lua-aarch64-linux.zip",
-                    "checksum": "59bad62e157f4bb96ea9d2e16a3e844ad84c6fdd23f89b33c4c9082ae5870416"
+                    "checksum": "60d4951677421694ac0d5b8ccd2b3615580702d10c26a7013eec7b86bf82249e"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_lua-x86_64-darwin.zip",
-                    "checksum": "9a8ba36ca8f65125a09a03d1fe1e967f60ebb995469365655cd9d7108713204e"
+                    "checksum": "d8f20f9f12b8f74e967c2679d72138798146d08da59933e4a21b0596b0b7762d"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_lua-x86_64-linux.zip",
-                    "checksum": "5a76cb1104fafd0da3d636e9c1abd8ab3cd7e61c9ed9d26bc0323df4c8b89ec8"
+                    "checksum": "e68cbc5ab92bc846d5cde8a0eb9ce997b438e7ff314ba1ab25ddb28c4a10f3fb"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_lua-x86_64-windows.zip",
-                    "checksum": "2178ad0c574771ff890913f03dfa625726cf6122f05e8d887e09722eeb46b938"
+                    "checksum": "7c695dc2053994451480481d6dd35d5daece9adea5ed40159b49c96b2bdc5970"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_markdown",
-            "version": "15",
+            "version": "16",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -803,33 +803,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_markdown-aarch64-darwin.zip",
-                    "checksum": "ff52cbb1199ecd8cac8ec53c5c42381f48319585b81eff954faa040623785c93"
+                    "checksum": "e69866cb768559a5b42c85d0c8c5696e195aec961b4fff6dcf1c20bb954d3dd1"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_markdown-aarch64-linux.zip",
-                    "checksum": "832f9901cbb5dd164f3159bc076d41da829e1d7a1699306a29cbb312e18ac0e8"
+                    "checksum": "016e89047da7ff95f7ab3439e525a5b34a869d990fe84b3a5b63f23e2101f7e5"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_markdown-x86_64-darwin.zip",
-                    "checksum": "1507d1dc48be2550b450ba43edf5fb4595e99292916883f35925ac6cd3f7a65b"
+                    "checksum": "0193eccda0e292636e274e02ee4abf6f2bc939d7bd3af8967c00b8d941d4dc42"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_markdown-x86_64-linux.zip",
-                    "checksum": "94301028419c94cb71c58eb5e409f04dc9e5d057f879a4a65471e6c5defef92e"
+                    "checksum": "75d1d7e8f69c447a5585de9e3ace1b0afb9057f9a5ab722bb909847f79feb552"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_markdown-x86_64-windows.zip",
-                    "checksum": "c661af13541de8e65fd3f33af1ccca9766d9e830cd054b7f46b926644b98ce31"
+                    "checksum": "485b86e1196e32d35007d75ba0424f1ad8519e8481032b5bddba985a9efbe089"
                 }
             ]
         },
         {
             "id": "treesitter_markdown_inline",
-            "version": "15",
+            "version": "16",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -849,33 +849,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_markdown_inline-aarch64-darwin.zip",
-                    "checksum": "8e866b1809291f21c3cb48c0d1d1b0cbf3db8e85e606954f632111fc0091e007"
+                    "checksum": "7285fda700c3e3e8cd5afc4ffb5d935a57db20dabab600c6e41c4c344f1bfd46"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_markdown_inline-aarch64-linux.zip",
-                    "checksum": "8c1f9fbff600dc38b1319dee25d8cb94b5024d95d81f6d62f8b9a99d7d97cebd"
+                    "checksum": "ac5ed302cf81bd26db1ab043f8f5a79682a564fc398fc3b49753845f4c2bff3d"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_markdown_inline-x86_64-darwin.zip",
-                    "checksum": "aaefcb24bfea47b6001555eb73063ab9cb635febb6b41b2534a9f02a91685c84"
+                    "checksum": "8791e2d3e9f110376115134031791127895a0382815cf7dcc73d1cf44d4dc158"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_markdown_inline-x86_64-linux.zip",
-                    "checksum": "53f944608a9aa750dbaf67b3dba585e49a92aa9551dd6332957223572bc43a69"
+                    "checksum": "5957a8db1678cae4d9851ce1ddacf4d06dc2396c4fb62eeaf2dd102e01ee12d3"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_markdown_inline-x86_64-windows.zip",
-                    "checksum": "14ada81edf9935fe6814806e32de46e7e460e40dccffc9d24215d94c82c87c3d"
+                    "checksum": "679d7af182c05c771e4f1156e0368a0323c3353bec3bec87ce2d0f3bf94ad294"
                 }
             ]
         },
         {
             "id": "treesitter_php",
-            "version": "15",
+            "version": "16",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -898,33 +898,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_php-aarch64-darwin.zip",
-                    "checksum": "a3e809442dcaffea6db9a4023b1b73c46ba4e0b685837e2219aae0cada31fb30"
+                    "checksum": "3cc56a9b90adb38683a5fdf3de6a4d8404d386c1ea89db355311f2d6c7819aba"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_php-aarch64-linux.zip",
-                    "checksum": "b6c03197dcf52c79fbbf9e142da105f26f4146cf6bc8addbd29c1336ba184cbc"
+                    "checksum": "b03998d3669c5958aec4f17378138dc51d5c9da44f9f898d755c90aeb6b42c8c"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_php-x86_64-darwin.zip",
-                    "checksum": "049c543eacd1d3cd3e19267f36928777be765f750f729ba9f08b3a1ee88fc652"
+                    "checksum": "4c99711ae54675d01bb58df4be688cfb29ec206fa0a3909a6cfc585b60c7785c"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_php-x86_64-linux.zip",
-                    "checksum": "f4cfad25c8dca44c0347dcc9c1ac7aa02feee735900b9b4aea3bf50f31db4b36"
+                    "checksum": "2111e7f1d1d5ce268500484c635144e828b1cfb235e2646b6e19185ad7e6e9a7"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_php-x86_64-windows.zip",
-                    "checksum": "f2d3b3668add306a043719312e2815b28f83bd7a0bdce7dd932aabb22e7fda52"
+                    "checksum": "d13466f69ffa7a37b5257786704f336447506174b279324a48bf73156070e762"
                 }
             ]
         },
         {
             "id": "treesitter_php_only",
-            "version": "14",
+            "version": "15",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -937,33 +937,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_php_only-aarch64-darwin.zip",
-                    "checksum": "2dbadc0c4f77635271271e5ad7b12a07eaf32e4b09a60bb56be6fe32405a5545"
+                    "checksum": "6e8bc199524008b87ab24174270206b3d8cbf8791953d6acf970e0f215cd2ff5"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_php_only-aarch64-linux.zip",
-                    "checksum": "2fb17648b6b4c4908a3b873016d5828cf5a20791a761b93ae8de4e0baf78c861"
+                    "checksum": "5297e0d3029709165e00c57a33708c0e499bbffb7fcba4cd970550e765a095f3"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_php_only-x86_64-darwin.zip",
-                    "checksum": "2d1405777612ca19329a89b6923e2a56be1637f06253e8516c0225422eb05670"
+                    "checksum": "500c23a03c179952e5afcb21c1b28c71b6a77a4e9175465369e7b47965120e62"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_php_only-x86_64-linux.zip",
-                    "checksum": "5502c253b326c4b1229b1cd5ad9a9469a5dbb7bbadb55dcbde0c752d4540fadb"
+                    "checksum": "9a529a09cf3233bbba570f92795c669e1c8697f72aa6c0310882761ba34ab3f0"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_php_only-x86_64-windows.zip",
-                    "checksum": "09e82d61edc6e5b5cfbe8151e36541e43e414f3fdfce31b9853f530698f46a22"
+                    "checksum": "e916803a49911063ba5836976e94e46b2249a733f90ab3e7a5d8c5bc2c30aab7"
                 }
             ]
         },
         {
             "id": "treesitter_phpdoc",
-            "version": "10",
+            "version": "11",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -973,33 +973,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_phpdoc-aarch64-darwin.zip",
-                    "checksum": "5e3870a649e363318b59a9da75853dfddd08f489f64771042f82831ef3a53788"
+                    "checksum": "aa388d0814d81e3faaa42b42534dade2d74dad67e45eab2f551a55d45c50b133"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_phpdoc-aarch64-linux.zip",
-                    "checksum": "87e4872c40d4b653cee94226b022f6039656614511afccce66e70e623c876187"
+                    "checksum": "ffa9f9d4358cf120823bbe729d0ae0338492667e8386afed412a61fcaacfc1b4"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_phpdoc-x86_64-darwin.zip",
-                    "checksum": "18fb1ff2a423807ee4ef7c8a1d33a8ad25f2d8310beab6caa058840899ef41ea"
+                    "checksum": "3eaa631ce1cc42bccd1a4115e7d77f09fbe9e2a68cc14e77bc958183a0be9005"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_phpdoc-x86_64-linux.zip",
-                    "checksum": "4f7797509a6e391ca53601e123c1c76605ab305774dd1bf21e36fe48ef2f1fca"
+                    "checksum": "d9fc0a0faf21d471289632418da4c56660859b66ebd465373e3c83abffe52e0c"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_phpdoc-x86_64-windows.zip",
-                    "checksum": "bd14642752c071d27032685a69bb0d59c3e6fe75a962110338b3301c75e040f7"
+                    "checksum": "0cc6a092f06a3f9a624df76ac3aced22e24e7b11ec025d70b65334cc5e912cb8"
                 }
             ]
         },
         {
             "id": "treesitter_python",
-            "version": "14",
+            "version": "15",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -1010,33 +1010,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_python-aarch64-darwin.zip",
-                    "checksum": "6b80257fe8ed90b7615f387267d320fe79011f369fa5910a54a16979d3bcd418"
+                    "checksum": "0200ddcf94122cfa5ac4b691dbe2f0941b1d71c3c82e5b5a7f788f44a7219fd1"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_python-aarch64-linux.zip",
-                    "checksum": "95a2d04b2484bf0ca0af413c155ab5b6448ff62aa5bad5625da3d7e96f3eb6f5"
+                    "checksum": "1d42a6d83819d1fedf5c47eafea135e81cbffc3a79120501443ba5d6ee6141aa"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_python-x86_64-darwin.zip",
-                    "checksum": "3af758e5bcd0587d5a0d5de9f376cc2b5d28189fa3226aefe239650620858489"
+                    "checksum": "ff2f0374fd466dcce92ab190f9effcd221e4aa884b253fee925571795474749b"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_python-x86_64-linux.zip",
-                    "checksum": "00994f42555d4d7c85f072fd7729b9e0e4545fbd0d897d7c25978d448156bb68"
+                    "checksum": "121b37b84e6e031f0e6bacca8aa64f9c1b99ab821225c4492c840828fd9448f5"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_python-x86_64-windows.zip",
-                    "checksum": "0602e1fd0f759a0e7074a1c1262d1b12c9fcf715fd5c85fb2e869700d28115c9"
+                    "checksum": "96d9af535fa793800d53ddab0e592adecdd9c3b44f5ca3de244dc7e9ed25ae17"
                 }
             ]
         },
         {
             "id": "treesitter_regex",
-            "version": "13",
+            "version": "14",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -1046,33 +1046,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_regex-aarch64-darwin.zip",
-                    "checksum": "b8e7826a6110840da73fd6a2d446d101b732a2ba39f6ad615c41c6e7b382eeab"
+                    "checksum": "13c0cdd8ed1c64986432cad244b26872d4cd6f3e92468309f6558cf7b0313b7f"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_regex-aarch64-linux.zip",
-                    "checksum": "706ac2320eea99eb714516de454fdeff91817e5491fff8d824818abd32f13860"
+                    "checksum": "6eada3609ce7afe4459ce03d7fdce63848b283ce31c86bcfd756c5468880a1bc"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_regex-x86_64-darwin.zip",
-                    "checksum": "3114e09b7f9a63a3a2d69e44d292e10c7ad04091269ec9b525051f44e1bfc3f8"
+                    "checksum": "289c77adf828859f544fdaf2ae9f80cffb73cd805d1f25a3410bdb8eece36ba7"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_regex-x86_64-linux.zip",
-                    "checksum": "042c8e01904fb4d28816405b2d96d817ebc346331e83c5f9594b349184fa5418"
+                    "checksum": "74c87547895ad4b892179534718c0b28a50c7b0c427f3afa8aa6caee4e3fa5e4"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_regex-x86_64-windows.zip",
-                    "checksum": "efc8c3e4bb1d9a49366cd3194a70e4ba69dd55eb156cd2136c468dc02d85f6f9"
+                    "checksum": "ddbce2af2f4bba23ef42b605cefcf4bb732a9972577ce7545857247462a310ad"
                 }
             ]
         },
         {
             "id": "treesitter_ruby",
-            "version": "14",
+            "version": "15",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -1083,33 +1083,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_ruby-aarch64-darwin.zip",
-                    "checksum": "2fa3dbf75176fe2ca26f620f3b89c05bba436236bcee375c80f487b1a2537331"
+                    "checksum": "55771ef2eab6e993675b258651a1a67ccaaddde86336490d343b59d8af2d84f3"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_ruby-aarch64-linux.zip",
-                    "checksum": "d3871a5e3cc0df481728c4e8bc4d2f661448b3e11b478d840dc182d959328052"
+                    "checksum": "8f416014262a10d9a40cf8fc98c50a7371176da120e65136f9a1cefc7c510546"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_ruby-x86_64-darwin.zip",
-                    "checksum": "93c005151e5e845fe3ae245293de211238edd3ea8bf2144c1fb520404f431713"
+                    "checksum": "482760b3368dd77d0e5b2c7c7c7d1329eeecf7559edaf6a9f5313aa2514e7c77"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_ruby-x86_64-linux.zip",
-                    "checksum": "bc8d234199ab3209462d9388c03d81fe2b376d4f548220f423ff4dbbc0af11e4"
+                    "checksum": "af83b8b63d1723db77f68bd2e4c8f77f59513a660d9ab7aee41dc378373e700b"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_ruby-x86_64-windows.zip",
-                    "checksum": "56a20f648b62e0d5fe66aaed28dabfead7e07a199097bd2f44720de177f5e8cf"
+                    "checksum": "9dee758ecc8dd510c25af87f3c72e9e37088b2ba6d5fdfe02d84934889770c5c"
                 }
             ]
         },
         {
             "id": "treesitter_rust",
-            "version": "33",
+            "version": "34",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {},
@@ -1119,34 +1119,34 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_rust-aarch64-darwin.zip",
-                    "checksum": "08bde112cdbccd45fae08a623d28988a3dee4ed0bb4c59365114f9cd168af736"
+                    "checksum": "39e5a4caf66cd65b4e9a6a20094cc34d41c799381f938bb4a54852c2694ce1ff"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_rust-aarch64-linux.zip",
-                    "checksum": "9483cee599ee5df142ea02a6d4146ec4f2827b95ea1806707b4af43c55fffea1"
+                    "checksum": "b3b401de856963c05bf520a1eecd1b967bc1657a89bf67a8f4407b650618d2e3"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_rust-x86_64-darwin.zip",
-                    "checksum": "f40dd463541fe5e64b63015578ec1de909cf7c4a71598496b5633c24f7064b60"
+                    "checksum": "bec559185bacb2071da75233ab61005ecaafa2012385099f3775d62920d030ae"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_rust-x86_64-linux.zip",
-                    "checksum": "c3a6bb440eef4461aa41dd78000270ea3f9eeb0201b2880eb762de5d385aaf5a"
+                    "checksum": "bb2c11ec261267f689572daac4849dc05b5885875e70161b67af3ea3df07ff78"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_rust-x86_64-windows.zip",
-                    "checksum": "9a73357d46bd85ee2ee9b21138237575109d82c3212b8372fae140bda19c8f1a"
+                    "checksum": "31548b32a73adb4f50bdce1cefbaeb62b0aeb9b8e65171214f909e32e95c16c7"
                 }
             ],
             "mod-version": "3"
         },
         {
             "id": "treesitter_toml",
-            "version": "13",
+            "version": "14",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -1156,33 +1156,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_toml-aarch64-darwin.zip",
-                    "checksum": "1d734eb2e741e5e820d7a92fe2e79c96bbab4385cada13e89df641b074ea2ac8"
+                    "checksum": "0262781f16f548bc8b733f6b4e7e446cbfe8c7908d3abb28635c460f41598708"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_toml-aarch64-linux.zip",
-                    "checksum": "dc6db9c6d93ee92c2c4ae58970707f58729bf1df8122013afc17d3c265cc8e24"
+                    "checksum": "f4fa9ee919547310a1799f6f8b176a7842b1fcc6e53d944d388740a0ed374750"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_toml-x86_64-darwin.zip",
-                    "checksum": "e04e2c145412241dd4982452f59a6b4983a0988f00c89a7a4cd05dbf0b2313b1"
+                    "checksum": "8a66a4f35ce4afd24cb465ffba5bbd2d697a4a82c452d25e5502979805d9771a"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_toml-x86_64-linux.zip",
-                    "checksum": "3b1787f8d7797e6dc0347da080303896c383cb26bdd805024b21bb88938c959f"
+                    "checksum": "6f7ae15db64631adbdefc9d1eb81113432f8e1d1ffc1574178a22fa3ba16fa6b"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_toml-x86_64-windows.zip",
-                    "checksum": "bb7948ae99871a7d6af1bc74d9049b63c4373c3576dfc819eb013e5ba039bd89"
+                    "checksum": "a9a30bdbf502e2c435e562656f2868526b67670aa19059b108f9741e55fa8caa"
                 }
             ]
         },
         {
             "id": "treesitter_tsx",
-            "version": "15",
+            "version": "16",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -1203,33 +1203,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_tsx-aarch64-darwin.zip",
-                    "checksum": "af0d69ebde9abde378ec7973638c47f8759f039b474d7f37fa2f71ed169961ff"
+                    "checksum": "9f5cf11c7012b54b3eafe817ced128b2afe96304aed0467ea73314194a08d1e0"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_tsx-aarch64-linux.zip",
-                    "checksum": "f17e96d91084e65ba5a6297b5c6409155763691ea6f2204e83a5fbe0ca014e4d"
+                    "checksum": "b0c9b2476006a35607a2336c73017793b8ec62513c11ca00e974d9e3683c6008"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_tsx-x86_64-darwin.zip",
-                    "checksum": "1f3de2a049d26b7744b833c901db09cd55d3ec2852497eb3248962a29ebc0c2e"
+                    "checksum": "3c15df4c78c07af50e62ed2e236478f47f8310bc2e0e63120176363af0e7b90b"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_tsx-x86_64-linux.zip",
-                    "checksum": "84170ce54b3532be31522904c4c75e824f76e5ce8b81075a6f033a55f7f6244b"
+                    "checksum": "b41b31ccfbab7118476ebb5ef6937914a53b8602ac4b89b9583cf484ef51f8fa"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_tsx-x86_64-windows.zip",
-                    "checksum": "55cb94488d0461f109df58a24421a8358453648dd6a8c7af492e8b01f55506d5"
+                    "checksum": "ffda1e897916a1ee095e2449b2f7c7e7bef6a12146ef97aee40f52852d49f17e"
                 }
             ]
         },
         {
             "id": "treesitter_typescript",
-            "version": "15",
+            "version": "16",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -1249,33 +1249,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_typescript-aarch64-darwin.zip",
-                    "checksum": "437d2303b302c960e9dbef589f624f0efdf023811dcebed65536c3c0fcbf36dd"
+                    "checksum": "183c50bcae19c7b405dbf53ef76a12d6a6ac17f5d76f9209aa398a4d0b46df0e"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_typescript-aarch64-linux.zip",
-                    "checksum": "5ddeca1a011afe0fe9a56835899d09d55ad0db0fe5beaec9bdc978dc235a658c"
+                    "checksum": "7910a18f62942b2d4512a9930d0047a33d3da3a89760da467d3180a6a6a0c3fe"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_typescript-x86_64-darwin.zip",
-                    "checksum": "13e45a20d82499304e4d09ad1da36566ea9a29c219678bf6f94319dff15cd522"
+                    "checksum": "3d3d415c3aab22a62de78aab57b32b60c84742b2cbf412ec26addded157f3394"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_typescript-x86_64-linux.zip",
-                    "checksum": "5ff37047b5248708454bb19a7d947ddaee1929b1bd2d73012bd5484b954426fb"
+                    "checksum": "4d3db8d69d1ae475ec3c296ea65abb99f04dc61b2f498c78847678ee1f254f20"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_typescript-x86_64-windows.zip",
-                    "checksum": "8d1319ea20d9261ca287af3e9ec19cb5c650961a2968e7788f99c9bad4be9329"
+                    "checksum": "fa2a46062d511cffd89d21a70f911dd8b0dab73cbd87c4fd3d8d283df8886451"
                 }
             ]
         },
         {
             "id": "treesitter_xml",
-            "version": "15",
+            "version": "16",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -1295,33 +1295,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_xml-aarch64-darwin.zip",
-                    "checksum": "b7bddb85dec48d9dd1abff49547ee735768480ee75f245b1e6635b55d4d724cc"
+                    "checksum": "e8306acb831786fbad95683a17d8861456892cf13af0690eb1556a37ca208555"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_xml-aarch64-linux.zip",
-                    "checksum": "a577484e57a48cdcef4bd452475aba54ec169f8efe6109cd70a5c2a7012d0fe2"
+                    "checksum": "cb48815a50c60cd93390f6dd828f0bd41896d33c524f0474ada237007700d8f5"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_xml-x86_64-darwin.zip",
-                    "checksum": "76146832304e86d945620def04c5331b6aa7c4d1f5404c9b5d7e7afe911d6863"
+                    "checksum": "721cc68d34bc53e87794767598d99b6c180008e7c45bac01864184304fda01d5"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_xml-x86_64-linux.zip",
-                    "checksum": "b06887b9866e1eef5a6ef1575fbbd3b9366719c6b01a2b756f506d66c760e47f"
+                    "checksum": "d1a546e951a909f3cd417f2a0b38c029253289391e310895d046e8f9bfec52d4"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_xml-x86_64-windows.zip",
-                    "checksum": "81fe0775cb6d00f458a3b9b728e5c49fb0291221344390f3f75d794f4373a974"
+                    "checksum": "fbc9b16ab6918a4e81ecfbcc2a53ac745df1d6c9668661f2ee2e7685cec8f1f8"
                 }
             ]
         },
         {
             "id": "treesitter_yaml",
-            "version": "15",
+            "version": "16",
             "mod-version": "3",
             "type": "plugin",
             "dependencies": {
@@ -1333,33 +1333,33 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_yaml-aarch64-darwin.zip",
-                    "checksum": "22b5b34e46fb48247b9bab751ef252d117e69a6ded25efff908d101e54150644"
+                    "checksum": "283f8d5a0678ab7246c0e98501668fd5ae90f64a5d995d59b114b267c381821a"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_yaml-aarch64-linux.zip",
-                    "checksum": "0ba31cccd47aab1010c9246cd29e11b66d13eed5d011203bacda463243098cf2"
+                    "checksum": "d9c10aa0a8e8faf18923958852f353b6e5589c4b89b4680371c74bc0623f3dc3"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_yaml-x86_64-darwin.zip",
-                    "checksum": "2f07769603de841289abbe6ab2b64f7fc4b21c351695ba7fb89bd8afbabe33d2"
+                    "checksum": "85220668e9dfce4120dfd58cf2dd5e38975d89b3f739c231b3185d5aa3a8d895"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_yaml-x86_64-linux.zip",
-                    "checksum": "63ac6f7154e121303f9098ba7ab932a1239d30fc4ffb7f749763b282fa78abf2"
+                    "checksum": "0d17ade8ddfd38b28ba77fda329eb71a891e524c4eed94e4efc289e3e74faf5e"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_yaml-x86_64-windows.zip",
-                    "checksum": "167be6961c4d4cd5ac31d50ff5d6a157e3688294765c8424566c21eeaae1f917"
+                    "checksum": "d8de0d3c48897311ff0b911a6ea4761739cea6f852bc023ab5130e5dcae8a904"
                 }
             ]
         },
         {
             "id": "treesitter_zig",
-            "version": "16",
+            "version": "17",
             "type": "plugin",
             "dependencies": {
                 "treesitter": {}
@@ -1368,27 +1368,27 @@
                 {
                     "arch": "aarch64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-darwin/treesitter_zig-aarch64-darwin.zip",
-                    "checksum": "d2c2030f76d4cae8f3657a0b91d12e5ffe059246b5f00053cd28d6dd84807475"
+                    "checksum": "f4fc1d1da0d6cf12f2be79d8aceefeff48fde63100bf324454ce47d7c5781983"
                 },
                 {
                     "arch": "aarch64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/aarch64-linux/treesitter_zig-aarch64-linux.zip",
-                    "checksum": "d3ccd77dc4c7c18768cdbc691ffd2c0472d3a099fca471d548ea043ab0b02990"
+                    "checksum": "3d599ebad2f5c3d22d16e7eeb6595011e35fbc66271d404b6a3cdf0ca2c8703e"
                 },
                 {
                     "arch": "x86_64-darwin",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-darwin/treesitter_zig-x86_64-darwin.zip",
-                    "checksum": "cb04b39e668d0f6e881b959ede153a430ea910532fac63a0e5a4a4244f0c2325"
+                    "checksum": "7d71f21ac097a10a3f10bac1763fd44286e5290821f835a141113789d72b5447"
                 },
                 {
                     "arch": "x86_64-linux",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-linux/treesitter_zig-x86_64-linux.zip",
-                    "checksum": "4989b4c87079a74ff132ebb8814a458d84a80bb5f17742d055583fdbfec492a9"
+                    "checksum": "97e3ee0a3b73dfaa78beae32a2db543b60de0c4f86d06020b5563ca69f4e6873"
                 },
                 {
                     "arch": "x86_64-windows",
                     "url": "https://github.com/pragtical/treesitter-languages/releases/download/x86_64-windows/treesitter_zig-x86_64-windows.zip",
-                    "checksum": "dda13e406ff98df6bfbaf029727ad6da7c0331f871455c4c7a82df5a8a9f0cc2"
+                    "checksum": "ea516d6318bc6c78f4316998b3de638e892a8744163086a7bbe111168e904a7d"
                 }
             ],
             "mod-version": "3"
