@@ -137,6 +137,25 @@
             },
             "package_format": "5"
         },
+        "elixir": {
+            "commit": "cb32ccbe17c67037b09e31bf9beb22cdae6ed8e9",
+            "files": {
+                "incs": {
+                    "src/tree_sitter/alloc.h": "b29c1c9fb7cc82f58c84b376df1297d6e2737a1d655fd356db0859e3c29c2fea",
+                    "src/tree_sitter/array.h": "4ff743903dc46f5db6aa54f31c6b4d160a8a9779e5b2ab1ee59ae7ebcd850ea1",
+                    "src/tree_sitter/parser.h": "a1f6ef161fbaf48a0e10fca90ef5290a062462b307b3898aa562993853b9f80a"
+                },
+                "queries": {
+                    "highlights.scm": "a5ba25c44d681d11af4d611a8e229463f91219ced15a3ca240a6c215df1f869a",
+                    "injections.scm": "9e436fad887a835f04d5eae6376c791e3eecee0feb3bd3903ef7407cf60c25bb"
+                },
+                "srcs": {
+                    "src/parser.c": "40c2d62393deb90537d0b8bf20f30c2c468c35667535353ab047b23300a2c6de",
+                    "src/scanner.c": "2d49d8974f7fdf0d38bdb7ed792f7a60aa87dd087b0c0bb469cd5b138b08ba57"
+                }
+            },
+            "package_format": "5"
+        },
         "go": {
             "commit": "2346a3ab1bb3857b48b29d779a1ef9799a248cd7",
             "files": {
@@ -633,5 +652,5 @@
             "package_format": "5"
         }
     },
-    "nvim-treesitter": "610734c5d3e59761d5f79318d120633374537fa5"
+    "nvim-treesitter": "915f2bd3d4e2a33704bfc476b5137e9befa82f3d"
 }
