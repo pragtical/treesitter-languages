@@ -30,9 +30,9 @@ jobs:
             mingw-w64-x86_64-gcc
             python
       - name: Checkout sources
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Download source packages artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: srcpkgs
           path: srcpkg/
@@ -41,7 +41,7 @@ jobs:
           python3 build.py
           python3 -c "from pathlib import Path; import sys; sys.exit(0 if list(Path('dist').glob('*.zip')) else 'no packages generated')"
       - name: Upload packages artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: pkgs-x86_64-windows
           path: dist/*.zip
@@ -66,17 +66,17 @@ jobs:
       PLATFORM: ${{ matrix.arch.name }}-linux
     steps:
       - name: Checkout sources
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Install build tools
         run: |
           sudo apt-get -y update &&
           sudo apt-get install make ${{ matrix.arch.pkgs }}
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Download source packages artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: srcpkgs
           path: srcpkg/
@@ -85,7 +85,7 @@ jobs:
           python3 build.py
           python3 -c "from pathlib import Path; import sys; sys.exit(0 if list(Path('dist').glob('*.zip')) else 'no packages generated')"
       - name: Upload packages artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: pkgs-${{ matrix.arch.name }}-linux
           path: dist/*.zip
@@ -99,7 +99,7 @@ jobs:
           - name: x86_64
             runner: macos-15-intel
           - name: aarch64
-            runner: macos-14
+            runner: macos-15
     env:
       CC: clang
       STRIP: ""
@@ -107,13 +107,13 @@ jobs:
       PLATFORM: ${{ matrix.arch.name }}-darwin
     steps:
       - name: Checkout sources
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Download source packages artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: srcpkgs
           path: srcpkg/
@@ -122,7 +122,7 @@ jobs:
           python3 build.py
           python3 -c "from pathlib import Path; import sys; sys.exit(0 if list(Path('dist').glob('*.zip')) else 'no packages generated')"
       - name: Upload packages artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: pkgs-${{ matrix.arch.name }}-darwin
           path: dist/*.zip

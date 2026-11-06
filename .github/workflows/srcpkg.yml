@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout sources
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Generate
@@ -20,12 +20,12 @@ jobs:
           python3 package_sources.py
           python3 -c "from pathlib import Path; import sys; sys.exit(0 if list(Path('srcpkg').glob('*.zip')) else 'no source packages generated')"
       - name: Upload source packages artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: srcpkgs
           path: srcpkg/*.zip
       - name: Upload updated metadata artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: meta-update
           path: |
