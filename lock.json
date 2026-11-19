@@ -45,7 +45,7 @@
                     "src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
                 },
                 "queries": {
-                    "highlights.scm": "6cb8448f7cacca8986f44336f3a386a7a84088e667b5ca16406b59e1cc43e4fd"
+                    "highlights.scm": "570de567a096988bb41087dceca9e38200caa980fdb6623399366eab50b5d522"
                 },
                 "srcs": {
                     "src/parser.c": "d1a24aa1157e19ed4cd0eb6980eeafe9959dbc85e72b7acc621443de3de8fe99",
@@ -397,10 +397,10 @@
             "source_path": "tree-sitter-markdown-inline"
         },
         "php": {
-            "commit": "58d5643086ae60e93a3746cca648363ee97c8761",
+            "commit": "c1e13490bd656b8869cd47e6f74997ed46750a08",
             "files": {
                 "incs": {
-                    "common/scanner.h": "72b141c8795e31d1559c8a5d5491acdf02a055777aa1667e51dac0144a0dc35d",
+                    "common/scanner.h": "09c626e5a9588b06f2f943967c6a6eef476dc5f008086ff8d099df3eb36c7709",
                     "php/src/tree_sitter/alloc.h": "b29c1c9fb7cc82f58c84b376df1297d6e2737a1d655fd356db0859e3c29c2fea",
                     "php/src/tree_sitter/array.h": "20e6ba85abb9d5b7e2e6dedf675c9424a057a06feee03aa3e2dd48a1cb4bf8a2",
                     "php/src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
@@ -410,18 +410,18 @@
                     "injections.scm": "bef9f28d3bcf124efacc6c91039c0e5c887b5e3e11f2b1a34075e2c330a838ac"
                 },
                 "srcs": {
-                    "php/src/parser.c": "8a42ccdbb0f18c934de610baab4cdf8f89086bc8f5a7dc89fb60350d61912e73",
-                    "php/src/scanner.c": "58c92cafe4ebda509c3ad3864fa6fc0e9877bbac26e17a03d23ea2101c291ad5"
+                    "php/src/parser.c": "1a3fe13dbccf54f13342d410d7cbbe351ae0e931c8bc475e8e2561c3f7e60ee0",
+                    "php/src/scanner.c": "b35acefea3495f70c9f68226898e51bdd1cd970dcb4b32c00d96858776f79b0c"
                 }
             },
             "package_format": "5",
             "source_path": "php"
         },
         "php_only": {
-            "commit": "58d5643086ae60e93a3746cca648363ee97c8761",
+            "commit": "c1e13490bd656b8869cd47e6f74997ed46750a08",
             "files": {
                 "incs": {
-                    "common/scanner.h": "72b141c8795e31d1559c8a5d5491acdf02a055777aa1667e51dac0144a0dc35d",
+                    "common/scanner.h": "09c626e5a9588b06f2f943967c6a6eef476dc5f008086ff8d099df3eb36c7709",
                     "php_only/src/tree_sitter/alloc.h": "b29c1c9fb7cc82f58c84b376df1297d6e2737a1d655fd356db0859e3c29c2fea",
                     "php_only/src/tree_sitter/array.h": "20e6ba85abb9d5b7e2e6dedf675c9424a057a06feee03aa3e2dd48a1cb4bf8a2",
                     "php_only/src/tree_sitter/parser.h": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2"
@@ -431,8 +431,8 @@
                     "injections.scm": "8163161e197b56fd1214870f36505ff2c54ab49b6a8149a87ab9a26ee146c9fc"
                 },
                 "srcs": {
-                    "php_only/src/parser.c": "6f1259d638937df4a9fbf61f8f67608f68d182c35c9d3657562446502d60b797",
-                    "php_only/src/scanner.c": "7a91ec341bef67f006e508f720edcd70b0d0eb73773584afa87ab7d12be25b14"
+                    "php_only/src/parser.c": "baeb2074642adfd2d8bfa2be84fc41d73fee24698a025bd26489cf7db719a660",
+                    "php_only/src/scanner.c": "c4053e25df6a299f986834778af8a964e45408be8d473270612381d0bbc3cd3d"
                 }
             },
             "package_format": "5",
@@ -652,5 +652,5 @@
             "package_format": "5"
         }
     },
-    "nvim-treesitter": "b706d642dd20d0922e7e92365dc73617f0fdb4ea"
+    "nvim-treesitter": "37e52c733ada9d8d544d53a763140ef1ba404353"
 }
